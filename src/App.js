@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import Basico from './componentes/Basicos2';
 import Proyecto1 from './componentes/Proyecto1';
 import Lista_desplegable from './componentes/Lista_desplegable';
