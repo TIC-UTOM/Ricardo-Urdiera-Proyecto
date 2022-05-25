@@ -1,34 +1,57 @@
 import React from 'react';
+import '../App.css';
 
-const Basico = () => {
-    return (
-        <div class="text-right">
-        <div class="alert alert-success" role="alert">
-            A simple success alert—check it out! </div>
-        <div class="alert alert-danger" role="alert">
-        A simple danger alert—check it out!</div>
+function mostrar_scroll_tit(){
+    var tit = document.getElementById('tit');
 
-        <button type="button" class="btn btn-primary position-relative" >Inbox
-        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-        99+<span class="visually-hidden">unread messages</span></span></button>
-        
-      
-        <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
-            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-            <a class="page-link" href="#">Siguiente</a>
-            </li>
-        </ul>
-</nav>
-        </div>
-        
-    );
+    let scrollTop = document.documentElement.scrollTop;
+    let altura_tit = tit.offsetTop;
+    if(altura_tit < scrollTop){
+        tit.style.left = 0;
+    }
 }
 
-export default Basico;
+function mostrar_scroll_img(){
+    var img = document.getElementById('img');
+    var tapa = document.getElementById('tapa_img');
+    let scrollTop = document.documentElement.scrollTop;
+    let altura_img = img.offsetTop;
+    if(altura_img +150 < scrollTop){
+        img.style.right = 0;
+        tapa.style.right = '100';
+    }
+}
+
+function mostrar_scroll_tit1(){
+    var tit1 = document.getElementById('tit1');
+
+    let scrollTop = document.documentElement.scrollTop;
+    let altura_tit1 = tit1.offsetTop;
+    if(altura_tit1 < scrollTop){
+        tit1.style.left = 0;
+    }
+}
+
+function mostrar_scroll_img1(){
+    var img1 = document.getElementById('img1');
+    var tapa1 = document.getElementById('tapa_img');
+    let scrollTop = document.documentElement.scrollTop;
+    let altura_img1 = img1.offsetTop;
+    if(altura_img1 +150 < scrollTop){
+        img1.style.right = 0;
+        tapa1.style.right = '100';
+    }
+}
+
+
+
+window.addEventListener('scroll', mostrar_scroll_tit);
+window.addEventListener('scroll', mostrar_scroll_img);
+window.addEventListener('scroll', mostrar_scroll_tit1);
+window.addEventListener('scroll', mostrar_scroll_img1);
+
+
+
+
+
+

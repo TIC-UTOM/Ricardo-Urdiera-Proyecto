@@ -1,23 +1,20 @@
 import React from 'react';
-import Basico from './componentes/Basicos2';
+import Basicos2 from './componentes/Basicos2';
 import Proyecto1 from './componentes/Proyecto1';
 import Lista_desplegable from './componentes/Lista_desplegable';
-
+import './App.css';
 
 const App = () => {
  return(
-   <div className="container">
+   <div class="container">
      <div className="row">
         <div className="col">
-        <div>
-          <Lista_desplegable/>
-        </div>
          <Proyecto1/>
         </div>
-     </div>
-     <div className="row">
-      <Basico/>
-     </div>
+      </div>
+      <dvi>
+        <Lista_desplegable/>
+      </dvi>
    </div>
  ); 
 }
