@@ -1,26 +1,23 @@
 import React from 'react';
 import '../App.css';
 
+var header = document.getElementById('Header')
+
+window.addEventListener('scroll', ()=>{
+    var scroll = window.scrollY
+    if(scroll>10){
+        header.style.backgroundColor = '#121212'
+    }else{
+        header.style.backgroundColor = 'transparent'
+    }
+})
+
+
+
 const Basico = () => {
     return (
-    <div class="text-right">
-        <nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-      </a>|
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
+    <div class="">
+            
     </div>       
     );
 }

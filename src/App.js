@@ -6,9 +6,9 @@ import './App.css';
 
 const App = () => {
  return(
-   <div class="container">
-     <div className="row">
-        <div className="col">
+   <div class="">
+     <div className="">
+        <div className="">
          <Proyecto1/>
         </div>
       </div>

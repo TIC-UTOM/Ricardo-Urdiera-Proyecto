@@ -1,19 +1,39 @@
 import React from 'react';
 import '../App.css';
+import logo from '../imagenes/logo.png';
 
 const Projecto1 = () => {
     return (
-    <div class="content-bd">
-        <div class="container">
-            <div class="tit">
-                <h1 id="tit">Bienvenido a mi blog</h1>
-            </div>
-            <div class="img">
-                <div class="tapa_img" id="tapa_img">
-                </div>
-                <img src="https://d2fl3xywvvllvq.cloudfront.net/wp-content/uploads/2019/10/nutcache-image-2-600x360.jpg" id="img" alt="" />
-            </div>
-        </div>      
+    <div class="">
+        <header id="header">
+          <img src={logo} alt="" class="logo"/>
+
+          <ul class="main-menu">
+            <li class="menu-item"></li>
+            <li class="menu-item"></li>
+            <li class="menu-item"></li>
+            <li class="menu-item"></li>
+            <li class="">
+            <div class="container">
+              <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+              </div>  
+              </div>
+            </li>
+          </ul>
+        </header>
+      
+      <input type="checkbox" id="btn-menu"/>
+      <div class="container-menu">
+	      <div class="cont-menu">
+          <nav>
+              <a href="#">Inicio</a>
+              <a href="#">Información</a>
+              <a href="#">Contacto</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+          </div>
+        </div>
     </div>
     );
 
