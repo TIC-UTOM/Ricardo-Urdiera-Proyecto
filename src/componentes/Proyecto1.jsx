@@ -34,6 +34,10 @@ const Projecto1 = () => {
             <label for="btn-menu">✖️</label>
           </div>
         </div>
+
+      <div>
+        <a href="https://www.instagram.com/ricardourdiera.318/" class="btn-instagram" >Instagram</a>
+      </div>
     </div>
     );
 

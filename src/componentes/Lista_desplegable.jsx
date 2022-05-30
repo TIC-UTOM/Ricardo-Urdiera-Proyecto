@@ -14,6 +14,7 @@ window.addEventListener('scroll', ()=>{
 
 
 
+
 const Basico = () => {
     return (
     <div class="">

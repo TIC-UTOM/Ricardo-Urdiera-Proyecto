@@ -1,55 +1,26 @@
 import React from 'react';
 import '../App.css';
 
-function mostrar_scroll_tit(){
-    var tit = document.getElementById('tit');
+/*Js para imagenes aparecer altura=196*/
 
-    let scrollTop = document.documentElement.scrollTop;
-    let altura_tit = tit.offsetTop;
-    if(altura_tit < scrollTop){
-        tit.style.left = 0;
-    }
+
+
+const Basico2 = () => {
+    return (
+    <div>
+         <section>
+          <img src="https://neliosoftware.com/es/wp-content/uploads/sites/3/2018/07/aziz-acharki-549137-unsplash-1200x775.jpg" alt="" class="img2" id="img2"/>   
+        <div class="info">
+            <img src="https://www.cambio16.com/wp-content/uploads/2017/04/fotos-impresionantes-imagenes-que-parecen-modificadas-con-photoshop-11.jpeg" alt="" id="img2" class="img2" />
+        </div>
+        <div>
+            <a href="#"><h1 class="ver">ver Proyecto</h1></a>
+        </div>  
+        </section> 
+    </div>       
+    );
 }
-
-function mostrar_scroll_img(){
-    var img = document.getElementById('img');
-    var tapa = document.getElementById('tapa_img');
-    let scrollTop = document.documentElement.scrollTop;
-    let altura_img = img.offsetTop;
-    if(altura_img +150 < scrollTop){
-        img.style.right = 0;
-        tapa.style.right = '100';
-    }
-}
-
-function mostrar_scroll_tit1(){
-    var tit1 = document.getElementById('tit1');
-
-    let scrollTop = document.documentElement.scrollTop;
-    let altura_tit1 = tit1.offsetTop;
-    if(altura_tit1 < scrollTop){
-        tit1.style.left = 0;
-    }
-}
-
-function mostrar_scroll_img1(){
-    var img1 = document.getElementById('img1');
-    var tapa1 = document.getElementById('tapa_img');
-    let scrollTop = document.documentElement.scrollTop;
-    let altura_img1 = img1.offsetTop;
-    if(altura_img1 +150 < scrollTop){
-        img1.style.right = 0;
-        tapa1.style.right = '100';
-    }
-}
-
-
-
-window.addEventListener('scroll', mostrar_scroll_tit);
-window.addEventListener('scroll', mostrar_scroll_img);
-window.addEventListener('scroll', mostrar_scroll_tit1);
-window.addEventListener('scroll', mostrar_scroll_img1);
-
+export default Basico2;
 
 
 

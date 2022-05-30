@@ -10,6 +10,21 @@ body{
     background: #000;
 }
 
+/*Ver proyecto*/
+
+.ver {
+    text-align: end;
+    font-size: 20px;
+    height: 300px;
+    width: 200px;
+    color:#fff;
+}
+
+
+
+
+
+/*Esto es parte de la barra de navegación*/
 header{
     height: auto;
     width: 100%;
@@ -26,8 +41,9 @@ header{
 }
 /*Barra de navegación*/
 .logo{
-    height: 60%;
-    line-height: 70px;
+    height: 100%;
+    line-height: 7 0px;
+    cursor: pointer;
 }
 .main-menu{
     display: flex;
@@ -48,12 +64,7 @@ header{
 }
 
 /*estilo del icono*/
-ion-icon{
-    color: #fff;
-    font-size: 50px;
-    line-height: 70px;
-    cursor: pointer;
-}
+
 
 .container .btn-menu{
     color: #fff;
@@ -80,7 +91,7 @@ ion-icon{
     position:right;
     background: #000;
     width: 100%;
-    height: 100vh;
+    height: 30vh;
     top: 0%; left: 83%;
     transition: all 500ms ease;
     opacity: 0;
@@ -114,6 +125,7 @@ ion-icon{
 
 .cont-menu nav a{
     display:block;
+    font-size: 30px;
     text-decoration: none;
     padding: 20px;
     color: #c7c7c7;
@@ -132,5 +144,33 @@ ion-icon{
     top: 10px;
     color: #fff;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 25px;
 }
+
+/*Animaciones de imagenes*/
+
+section{
+    height: 50vh;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000; 
+} 
+
+section img{
+    width: 350px;
+    margin: 0 50px;
+}
+/*Otro css de imagen*/
+
+
+
+
+
+
+
+
+
+
+

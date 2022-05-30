@@ -7,14 +7,17 @@ import './App.css';
 const App = () => {
  return(
    <div class="">
-     <div className="">
         <div className="">
          <Proyecto1/>
         </div>
+        <div>
+        <Basicos2/>
       </div>
-      <dvi>
+      <div>
         <Lista_desplegable/>
-      </dvi>
+      </div>
+      
+      
    </div>
  ); 
 }
