@@ -13,9 +13,6 @@ const Basico2 = () => {
         <div class="info">
             <img src="https://www.cambio16.com/wp-content/uploads/2017/04/fotos-impresionantes-imagenes-que-parecen-modificadas-con-photoshop-11.jpeg" alt="" id="img2" class="img2" />
         </div>
-        <div>
-            <a href="#"><h1 class="ver">ver Proyecto</h1></a>
-        </div>  
         </section> 
     </div>       
     );
