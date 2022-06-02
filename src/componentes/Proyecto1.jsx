@@ -35,13 +35,13 @@ const Projecto1 = () => {
           </div>
         </div>
 
-          <div>
+          <div class="">
             <a href="https://www.facebook.com/Ricardo.urdiera/" class="btn-Noinstagram" ><i class="">Facebook</i></a>
           </div>
           <div>
             <a href="https://www.instagram.com/ricardourdiera.318/" class="btn-instagram" ><i class="">Instagram</i></a>
           </div>
-      
+
     </div>
     );
 

@@ -7,7 +7,8 @@ import '../App.css';
 
 const Basico2 = () => {
     return (
-    <div>
+    <div class="content-bd">
+
          <section>
           <img src="https://neliosoftware.com/es/wp-content/uploads/sites/3/2018/07/aziz-acharki-549137-unsplash-1200x775.jpg" alt="" class="img2" id="img2"/>   
         <div class="info">
