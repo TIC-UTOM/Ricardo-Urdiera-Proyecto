@@ -1,21 +1,54 @@
 import React from 'react';
 import '../App.css';
 
-/*Js para imagenes aparecer altura=196*/
+/*js de app*/
 
 
+/*Siguiente codigo*/
+const imagen1 = document.getElementById('imagen1');
+const imagen2 = document.getElementById('imagen2');
+
+const cargarImagen = (entradas, observador) =>{
+
+    entradas.forEach((entrada) => {
+        if(entrada.isIntersecting){
+            entrada.target.classList.add('visible') 
+        }else{
+            entrada.target.classList.remove('visible')
+        }
+    });
+}
+
+const observador = new IntersectionObserver(cargarImagen, {
+    root: null,
+    rootMargin: '100px 100px 100px 100px',
+    threshold: 1.0
+});
+
+
+observador.observe(imagen1);
+observador.observe(imagen2);
 
 const Basico2 = () => {
     return (
-    <div class="content-bd">
+    <div>    
+	<div class="contenedor3">
+           <a href="#"><h1 class="tit" id="tit">
+               UTOMoscars
+            </h1></a>
+		<img id="imagen1" class="izquierda" src="https://i.blogs.es/3650f5/eclipsed-moon-trail-c-chuanjin-su/450_1000.jpg" alt=""/>
+        <a href="#"><h1 class="ver" id="ver">Ver proyecto</h1></a>
+	</div>
+    <div class="contenedor3">
+           <a href="#"><h1 class="tit2" id="tit2">
+               SCAN|CAR
+            </h1></a>
+            <img id="imagen2" class="derecha" src="https://static1.diariosur.es/www/multimedia/201909/30/media/cortadas/imagensensible-kYzD-U90285421336FWD-624x385@Diario%20Sur.jpg" alt=""/>
+        <a href="#"><h1 class="ver2" id="ver2">Ver proyecto</h1></a>
+	</div>
+    
+    </div>
 
-         <section>
-          <img src="https://neliosoftware.com/es/wp-content/uploads/sites/3/2018/07/aziz-acharki-549137-unsplash-1200x775.jpg" alt="" class="img2" id="img2"/>   
-        <div class="info">
-            <img src="https://www.cambio16.com/wp-content/uploads/2017/04/fotos-impresionantes-imagenes-que-parecen-modificadas-con-photoshop-11.jpeg" alt="" id="img2" class="img2" />
-        </div>
-        </section> 
-    </div>       
     );
 }
 export default Basico2;
