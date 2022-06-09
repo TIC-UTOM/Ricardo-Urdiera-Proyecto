@@ -239,27 +239,9 @@ a{
 }
 
 
-.tit{
-    font-family:"Monument Extended";
-    color: #fff;
-    font-size: 30px;
-    position: absolute;
-    left: 15%;
-    top: 0;
-    transition: 1s ease all;
-    padding-bottom: 30px;
-    margin: 280px 50px;
-    word-wrap: break-word;
-    width: 20px;
-}
 
 /*Ver proyecto*/
-.ver {
-    text-align: end;
-    font-size: 20px;
-    margin: -120px -130px;
-    color:#fff;
-}
+
 
 .tit2{
     font-family:"Monument Extended";
@@ -270,23 +252,244 @@ a{
     top: 0;
     transition: 1s ease all;
     padding-bottom: 30px;
-    margin: 680px 50px;
+    margin: 1170px 20px;
     word-wrap: break-word;
     width: 20px;
 }
+
+
 
 /*Ver proyecto*/
 .ver2 {
     text-align: end;
     font-size: 20px;
-    margin: -120px -130px;
+    margin: 300px -130px;
     color:#fff;
 }
 
+.tit3{
+    font-family:"Monument Extended";
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    transition: 1s ease all;
+    padding-bottom: 30px;
+    margin: 1650px 20px;
+    word-wrap: break-word;
+    width: 20px;
+}
+
+/*Ver proyecto*/
+.ver3 {
+    text-align: end;
+    font-size: 20px;
+    margin: 530px -130px;
+    color:#fff;
+}
+
+/*Imagen una encima de otra*/
+.eye{
+    position:absolute;
+    height:500px;
+    width:550px;
+    top: 350px;
+    left : 600px;
+    z-index: 1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+  }
+  
+  .heaven
+  {
+    position:absolute;
+    height:500px;
+    width:600px;
+    top: 290px;
+    left : 400px;
+    z-index: -1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all
+  }
+
+  .heaven3
+  {
+    position:absolute;
+    height:350px;
+    width:200px;
+    top: 200px;
+    left : 450px;
+    z-index: -1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all
+  }
+
+  .heaven4
+  {
+    position:absolute;
+    height:350px;
+    width:200px;
+    top: 600px;
+    left : 300px;
+    z-index: -1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all
+  }
 
 
+.Hello{
+    position: relative;
+    left: 30; 
+    top: 0;
+}
+
+.contenedor4 {
+	color: #f2f2f2;
+	font-size: 18px;
+	line-height: 30px;
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	text-align: justify;
+}
+
+.contenedor4 img.heaven{
+	transform: translateX(-200px);
+}
+
+.contenedor4 img.eye {
+	transform: translateX(100px);
+}
+
+.contenedor4 img.visible {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+}
+/*Otra sección*/
+
+.eye2{
+    position:absolute;
+    height:300px;
+    width:400px;
+    top: 1130px;
+    left : 700px;
+    z-index: 1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+  }
+  
+  .heaven2
+  {
+    position:absolute;
+    height:350px;
+    width:500px;
+    top: 1100px;
+    left : 240px;
+    z-index: -1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all
+  }
 
 
+.Hello2{
+    position: relative;
+    left: 30; 
+    top: 0;
+}
+
+.contenedor5 {
+	color: #f2f2f2;
+	font-size: 18px;
+	line-height: 30px;
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	text-align: justify;
+}
+
+.contenedor5 img.heaven2{
+	transform: translateX(-200px);
+}
+
+.contenedor5 img.eye2 {
+	transform: translateX(100px);
+}
+
+.contenedor5 img.visible {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+}
+
+/*Otra sección 3*/
+.eye3{
+    position:absolute;
+    height:450px;
+    width:600px;
+    top: 1630px;
+    left : 590px;
+    z-index: 1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+  }
+  
+  .heaven5
+  {
+    position:absolute;
+    height:300px;
+    width:400px;
+    top: 1700px;
+    left : 230px;
+    z-index: -1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all
+  }
+
+
+.Hello3{
+    position: relative;
+    left: 30; 
+    top: 0;
+}
+
+.contenedor6 {
+	color: #f2f2f2;
+	font-size: 18px;
+	line-height: 30px;
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	text-align: justify;
+}
+
+.contenedor6 img.heaven5{
+	transform: translateX(-200px);
+}
+
+.contenedor6 img.eye3{
+	transform: translateX(100px);
+}
+
+.contenedor6 img.visible {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+}
 
 
 
