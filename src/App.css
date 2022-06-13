@@ -292,7 +292,7 @@ a{
 /*Imagen una encima de otra*/
 .eye{
     position:absolute;
-    height:500px;
+    height:450px;
     width:550px;
     top: 350px;
     left : 600px;
@@ -306,10 +306,10 @@ a{
   .heaven
   {
     position:absolute;
-    height:500px;
+    height:450px;
     width:600px;
     top: 290px;
-    left : 400px;
+    left : 300px;
     z-index: -1;
 
     opacity: 0;
@@ -320,10 +320,10 @@ a{
   .heaven3
   {
     position:absolute;
-    height:350px;
-    width:200px;
-    top: 200px;
-    left : 450px;
+    height:200px;
+    width:150px;
+    top: 250px;
+    left : 440px;
     z-index: -1;
 
     opacity: 0;
@@ -334,10 +334,10 @@ a{
   .heaven4
   {
     position:absolute;
-    height:350px;
-    width:200px;
+    height:200px;
+    width:150px;
     top: 600px;
-    left : 300px;
+    left : 230px;
     z-index: -1;
 
     opacity: 0;
@@ -370,6 +370,14 @@ a{
 	transform: translateX(100px);
 }
 
+.contenedor4 img.heaven3{
+	transform: translateY(-200px);
+}
+
+.contenedor4 img.heaven4{
+	transform: translateX(-200px);
+}
+
 .contenedor4 img.visible {
 	opacity: 1;
 	transform: scale(1) translateX(0);
@@ -379,9 +387,9 @@ a{
 .eye2{
     position:absolute;
     height:300px;
-    width:400px;
+    width:420px;
     top: 1130px;
-    left : 700px;
+    left : 770px;
     z-index: 1;
 
     opacity: 0;
@@ -395,7 +403,7 @@ a{
     height:350px;
     width:500px;
     top: 1100px;
-    left : 240px;
+    left : 265px;
     z-index: -1;
 
     opacity: 0;
@@ -436,10 +444,10 @@ a{
 /*Otra sección 3*/
 .eye3{
     position:absolute;
-    height:450px;
-    width:600px;
-    top: 1630px;
-    left : 590px;
+    height:400px;
+    width:500px;
+    top: 1660px;
+    left : 700px;
     z-index: 1;
 
     opacity: 0;
@@ -453,7 +461,7 @@ a{
     height:300px;
     width:400px;
     top: 1700px;
-    left : 230px;
+    left : 260px;
     z-index: -1;
 
     opacity: 0;
@@ -491,7 +499,87 @@ a{
 	transform: scale(1) translateX(0);
 }
 
+/*Otro contenedor*/
+.eye4{
+    position:absolute;
+    height:300px;
+    width:400px;
+    top: 2300px;
+    left : 770px;
+    z-index: 1;
 
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+  }
+  
+  .heaven6
+  {
+    position:absolute;
+    height:400px;
+    width:500px;
+    top: 2250px;
+    left : 260px;
+    z-index: -1;
+
+    opacity: 0;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all
+  }
+
+
+.Hello4{
+    position: relative;
+    left: 30; 
+    top: 0;
+}
+
+.contenedor7 {
+	color: #f2f2f2;
+	font-size: 18px;
+	line-height: 30px;
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	text-align: justify;
+}
+
+.contenedor7 img.heaven6{
+	transform: translateX(-200px);
+}
+
+.contenedor7 img.eye4{
+	transform: translateX(100px);
+}
+
+.contenedor7 img.visible {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+}
+
+
+.tit4{
+    font-family:"Monument Extended";
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    transition: 1s ease all;
+    padding-bottom: 30px;
+    margin: 2270px 20px;
+    word-wrap: break-word;
+    width: 20px;
+}
+
+
+
+/*Ver proyecto*/
+.ver4 {
+    text-align: end;
+    font-size: 20px;
+    margin: 300px -130px;
+    color:#fff;}
 
 
 

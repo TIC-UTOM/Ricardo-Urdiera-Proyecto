@@ -8,18 +8,29 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
 
 const App = () => {
  return(
-  
-   <div class="">
-    <div>
-        <Basicos2/>
-    </div>
+  <Router>
+   <div>
+    <Switch>
+    <Route path="/" exact>
+     <Basicos2/>
+    </Route>
+    <Route path="/utomoscars">
+      <Utomoscars/>
+    </Route>
+    <Route path="/scam">
+      <Proyecto1/>
+    </Route>
+    <Route path="/micro">
+      <Lista_desplegable/>
+    </Route>
+    </Switch>    
    </div>
-      
+   </Router>
  ); 
 }
 
