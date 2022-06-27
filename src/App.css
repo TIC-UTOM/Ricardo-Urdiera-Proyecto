@@ -1,11 +1,7 @@
-	*{
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		font-family: 'Montserrat Alternates', sans-serif;
-	}
+
 
 body{
+
     background: #000;
 }
 
@@ -13,16 +9,15 @@ body{
 
 /*Esto es parte de la barra de navegación*/
 header{
-    height: auto;
     width: 100%;
     position: fixed;
-    top: 0;
+
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    box-sizing: border-box;
+ 
     height: 100px;
     transition: 0.5s;
 }
@@ -44,7 +39,7 @@ header{
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s;
-    color: #000;
+    color: rgba(0, 0, 0, 0);
 }
 .menu-items:hover{
     color: var(--main-color);
@@ -78,7 +73,7 @@ header{
     position:right;
     background: #000;
     width: 100%;
-    height: 30vh;
+    height: 0vh;
     top: 0%; left: 83%;
     transition: all 500ms ease;
     opacity: 0;
@@ -103,7 +98,7 @@ header{
 #btn-menu:checked ~ .container-menu .cont-menu{
     opacity: 1;
     visibility: visible;
-    transform: translateX(400%);
+    transform: translateX(405%);
 }
 
 .cont-menu nav{
@@ -295,12 +290,15 @@ a{
     height:450px;
     width:550px;
     top: 350px;
-    left : 600px;
+    left : 500px;
     z-index: 1;
-
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all;
+    object-fit: cover;
+  }
+  .eye:hover{
+    transform: scale(1.2);
   }
   
   .heaven
@@ -309,10 +307,10 @@ a{
     height:450px;
     width:600px;
     top: 290px;
-    left : 300px;
+    left : 400px;
     z-index: -1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all
   }
@@ -322,11 +320,11 @@ a{
     position:absolute;
     height:200px;
     width:150px;
-    top: 250px;
-    left : 440px;
+    top: 350px;
+    left : 340px;
     z-index: -1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all
   }
@@ -337,10 +335,10 @@ a{
     height:200px;
     width:150px;
     top: 600px;
-    left : 230px;
+    left : 430px;
     z-index: -1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all
   }
@@ -389,10 +387,10 @@ a{
     height:300px;
     width:420px;
     top: 1130px;
-    left : 770px;
+    left : 650px;
     z-index: 1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all;
   }
@@ -403,10 +401,10 @@ a{
     height:350px;
     width:500px;
     top: 1100px;
-    left : 265px;
+    left : 440px;
     z-index: -1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all
   }
@@ -447,10 +445,10 @@ a{
     height:400px;
     width:500px;
     top: 1660px;
-    left : 700px;
+    left : 560px;
     z-index: 1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all;
   }
@@ -459,12 +457,12 @@ a{
   {
     position:absolute;
     height:300px;
-    width:400px;
+    width:415px;
     top: 1700px;
-    left : 260px;
+    left : 440px;
     z-index: -1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all
   }
@@ -505,10 +503,10 @@ a{
     height:300px;
     width:400px;
     top: 2300px;
-    left : 770px;
+    left : 650px;
     z-index: 1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all;
   }
@@ -519,10 +517,10 @@ a{
     height:400px;
     width:500px;
     top: 2250px;
-    left : 260px;
+    left : 440px;
     z-index: -1;
 
-    opacity: 0;
+    opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all
   }
@@ -580,6 +578,19 @@ a{
     font-size: 20px;
     margin: 300px -130px;
     color:#fff;}
+
+
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }
+}
+
+@keyframes mover1{
+    0%{
+        transform: translateX(-100%);
+    }
+}
 
 
 

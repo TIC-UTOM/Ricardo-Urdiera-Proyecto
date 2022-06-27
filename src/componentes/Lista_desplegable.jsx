@@ -1,61 +1,84 @@
 import React from 'react';
 import '../App.css';
+import logo from '../imagenes/logo.png';
 import nano from '../imagenes/n1.jpg';
+import { useEffect, useRef, useState } from 'react';
 
 /*Codigo de js inicio*/
-const imagen = document.getElementById('prueba');
-const imagen1 = document.getElementById('prueba1');
-const imagen2 = document.getElementById('prueba2');
-const imagen3 = document.getElementById('prueba3');
-const imagen4 = document.getElementById('prueba4');
-const imagen5 = document.getElementById('prueba5');
-const imagen6 = document.getElementById('prueba6');
-const imagen7 = document.getElementById('prueba7');
-const imagen8 = document.getElementById('prueba8');
-const imagen9 = document.getElementById('prueba9');
 
 
 
 
-const cargarImagen = (entradas, observador) =>{
-
-    entradas.forEach((entrada) => {
-        if(entrada.isIntersecting){
-            entrada.target.classList.add('visible') 
-        }else{
-            entrada.target.classList.remove('visible')
-        }
-    });
-}
-
-const observador = new IntersectionObserver(cargarImagen, {
-    root: null,
-    rootMargin: '100px 100px 100px 100px',
-    threshold: 1.0
-});
-
-observador.observe(imagen);
-observador.observe(imagen1);
-observador.observe(imagen2);
-observador.observe(imagen3);
-observador.observe(imagen4);
-observador.observe(imagen5);
-observador.observe(imagen6);
-observador.observe(imagen7);
-observador.observe(imagen8);
-observador.observe(imagen9);
 
 /*Aqui termina */
 
 
 const Informacion = () => {
+
+
+
+
     return (
-    <div class="">
-        <div class="">
-      <h1>Pagina de Nanotecnología y Microchips</h1>
-           <img src={nano}/>
-    </div>     
-    </div>       
+        <div>
+        <header id="header">
+              <img src={logo} alt="" className="logo"/>
+    
+              <ul className="main-menu">
+                <li className="menu-item"></li>
+                <li className="menu-item"></li>
+                <li className="menu-item"></li>
+                <li className="menu-item"></li>
+                <li className="">
+                <div className="container">
+                  <div className="btn-menu">
+                    <label for="btn-menu">☰</label>
+                  </div>  
+                  </div>
+                </li>
+              </ul>
+            </header>
+          
+          <input type="checkbox" id="btn-menu"/>
+          <div className="container-menu">
+              <div className="cont-menu">
+              <nav>
+                  <a href="/">Inicio</a>
+                  <a href="info">Información</a>
+                  <a href="contacto">Contacto</a>
+                </nav>
+                <label for="btn-menu">✖️</label>
+              </div>
+            </div>
+    
+              <div className="">
+                <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+              </div>
+    
+    
+        <section className="parallax" id='sesion1nano'>
+            <div className="banner_description">
+                <h1 className="escaner">Nanotecologia y Microchip</h1>
+                <p className="texto">El proyecto de nanotecologia y Microchip fue hecho en el 8vo cuatrimestre
+                en el cual se realizo una pagina web, la cual era de Información
+                acerce del tema que se nos fue asignado</p>
+                <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
+                <a  className="regreso" href="">Regresar</a>
+            </div>
+        </section>
+        <section className="parallax" id='sesion2nano'>
+            <div className="banner_description">
+            </div>
+        </section>
+        <section className="parallax" id='sesion3nano'>
+            <div className="banner_description">
+            </div>
+        </section>
+            <a className="Paginacion" href="">Anterior</a>
+            <a className="paginacion" href="">Siguiente</a>
+        </div>    
     );
 }
 export default Informacion;

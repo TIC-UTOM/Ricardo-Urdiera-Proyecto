@@ -3,6 +3,8 @@ import Basicos2 from './componentes/Basicos2';
 import Proyecto1 from './componentes/Proyecto1';
 import Utomoscars from './componentes/Utomoscars';
 import Lista_desplegable from './componentes/Lista_desplegable';
+import Informacion from './componentes/Informacion';
+import Contacto from './componentes/Contacto';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -27,6 +29,12 @@ const App = () => {
     </Route>
     <Route path="/micro">
       <Lista_desplegable/>
+    </Route>
+    <Route path="/info">
+      <Informacion/>
+    </Route>
+    <Route path="/contacto">
+      <Contacto/>
     </Route>
     </Switch>    
    </div>

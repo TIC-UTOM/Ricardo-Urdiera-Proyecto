@@ -4,11 +4,10 @@ import '../Componente.css';
 import logo from '../imagenes/logo.png';
 import nano from '../imagenes/n1.jpg';
 
-
-const Projecto1 = () => {
+const Informacion = () => {
     return (
-    <div>
-    <header id="header">
+        <div>
+                  <header id="header">
           <img src={logo} alt="" className="logo"/>
 
           <ul className="main-menu">
@@ -45,33 +44,30 @@ const Projecto1 = () => {
             <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
 
+        <h1 className="titulo">Contacto</h1>
 
-    <section className="parallax" id='sesion1'>
-        <div className="banner_description">
-            <h1 className="escaner">Proyecto de Scam-Car</h1>
-            <p className="texto">El proyecto de escaner para carros, 
-                fue un Proyecto de integradora, donde 
-                se el objetivo es realizar una app que
-                 por medio de un OBD2, este realizara un 
-                 escaneo de un carro</p>
-            <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
-            <a  className="regreso" href="">Regresar</a>
+        <form class="row g-3" id="Formulario">
+  <div class="col-md-6">
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Nombre Completo</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder=""/>
+  </div>
+    <label for="inputEmail4" class="form-label">Dirección de correo</label>
+    <input type="email" class="form-control" id="inputEmail4"/>
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Numero de telefono</label>
+    <input type="number" class="form-control" id="inputCity"/>
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Escribe la solicitud</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder=""/>
+  </div>
+  <div class="col-12" id="buton">
+    <button type="submit" class="btn btn-primary">Aplicar Todo</button>
+  </div>
+</form>
         </div>
-    </section>
-    <section className="parallax" id='sesion2'>
-        <div className="banner_description">
-        </div>
-    </section>
-    <section className="parallax" id='sesion3'>
-        <div className="banner_description">
-        </div>
-    </section>
-        <a className="Paginacion" href="">Anterior</a>
-        <a className="paginacion" href="">Siguiente</a>
-    </div>
-    );
-
-    
+    )
 }
-
-export default Projecto1;
+export default Informacion ;

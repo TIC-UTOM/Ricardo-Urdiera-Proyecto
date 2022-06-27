@@ -1,0 +1,124 @@
+
+body{
+    
+    padding-bottom: 5em;
+}
+
+.Paginacion{
+    color: #fff;
+    font-size:20px;
+    margin: 0px 450px
+}
+.paginacion{
+    color: #fff;
+    font-size:20px;
+    margin: 0px -300px;
+}
+
+.texto{
+    margin: 0.5em 0;
+    font-size:15px;
+    color: #fff;
+
+}
+
+.regreso{
+    border: 0px solid rgb(255, 253, 253);
+    padding: 0em 0em;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 0.5em;
+    margin: 10em 0;
+}
+
+.escaner{
+    font-weight: 600;
+    font-size: 2em;
+    margin: 1.3em 0px;
+    color: #fff;
+}
+
+.banner_description{
+    width: 100%;
+    height: 700px;
+    max-width:-90px;
+    display:block;
+    margin: 0 140px;
+
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.parallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#sesion1{
+    background-image: url('https://periodismodelmotor.com/wp-content/uploads/2020/02/coches-caros-de-mantener-9.jpg');
+}
+#sesion2{
+    background-image: url('https://noticias.coches.com/wp-content/uploads/2020/12/coche-colores-Skoda-Fabia.jpg');
+}
+#sesion3{
+    background-image: url('https://www.autopista.es/uploads/s1/57/49/97/1/article-20-coches-mas-caros-mundo-2017-58da663add3ae.jpeg');
+}
+/*Sesiones de parallax de nanotecologia*/
+#sesion1nano{
+    background-image: url('https://www.eltiempo.com/files/article_main/uploads/2019/11/20/5dd5da6d60d6f.jpeg');
+}
+#sesion2nano{
+    background-image: url('https://cdn-3.expansion.mx/1a/41/d6ffe29945248567fda319a38087/istock-532174758.jpg');
+}
+#sesion3nano{
+    background-image: url('https://www.legaltoday.com/wp-content/uploads/2021/05/microchip.jpg');
+}
+/*Sesiones de los utomscars*/
+#sesion1utom{
+    background-image: url('https://www.bogartmagazine.mx/wp-content/uploads/2020/01/oscars-2019-no-tendran-presentador-1547140357.jpg');
+}
+#sesion2utom{
+    background-image: url('https://www.cameraandlightmag.com/img/img_not/AdobePremierePro_Productions.jpg');
+}
+#sesion3utom{
+    background-image: url('https://scontent.fmlm3-1.fna.fbcdn.net/v/t39.30808-6/278964877_1061349597809811_5020926886760826164_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFLImEHo-l3XH9_Q80A1CB7av-WhTSd0mhq_5aFNJ3SaHfKsS2n2A01DzWUqmOTLFql151Dt0KWaLidZXfAmp8O&_nc_ohc=T5x-mwTiOZkAX-Nt8Yj&_nc_ht=scontent.fmlm3-1.fna&oh=00_AT-79u-F7fSfSP4K-8tfU7TRffNbk7Rb14mUb9xmeFXpUQ&oe=62BD77B4');
+}
+
+.infor{
+    margin: 0.5em 0;
+    font-size:54px;
+    color: #fff;
+    text-align: justify;
+}
+
+.banner_description_info{
+    width: 100%;
+    height: 700px;
+    max-width:860px;
+    display:block;
+    margin: 30px 190px;
+
+}
+
+.titulo{
+    margin: 0.5em 0;
+    font-size:54px;
+    color: #fff;
+    text-align: justify;
+    margin: 80px 200px;
+}
+
+#Formulario{
+    color: #fff;
+    margin: 20px 200px;
+}
+
+#buton{
+    text-align: center;
+}
