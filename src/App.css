@@ -1,7 +1,4 @@
-
-
 body{
-
     background: #000;
 }
 
@@ -11,13 +8,11 @@ body{
 header{
     width: 100%;
     position: fixed;
-
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
- 
     height: 100px;
     transition: 0.5s;
 }
@@ -78,6 +73,7 @@ header{
     transition: all 500ms ease;
     opacity: 0;
     visibility: hidden;
+    
 }
 
 #btn-menu:checked ~ .container-menu{
@@ -93,12 +89,17 @@ header{
     position:right;
     transition: all 500ms ease;
     transform: translateX(531%);
+   
+
+    align-items: center;
+ 
 }
 
 #btn-menu:checked ~ .container-menu .cont-menu{
     opacity: 1;
     visibility: visible;
     transform: translateX(405%);
+
 }
 
 .cont-menu nav{
@@ -161,6 +162,14 @@ section img{
     font-size: 20px;
     box-shadow: 0px 1px 1px rb(0, 0, 0, 0.3);
     z-index: 100;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+    transition: 0.5s;
 }
 
 .btn-Noinstagram:hover{
@@ -187,6 +196,13 @@ a{
     font-size: 20px;
     box-shadow: 0px 1px 1px rb(0, 0, 0, 0.3);
     z-index: 100;
+ 
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    transition: 0.5s;
 }
 .btn-instagram:hover{
     text-decoration: none;
@@ -205,35 +221,13 @@ a{
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    
 }
-
-.contenedor3 img{
-	width: 100%;
-	height: 400px;
-	overflow: hidden;
-	margin-bottom: 40px;
-	border-radius: 5px;
-	margin:100px 10px;
-
-	opacity: 0;
-	transform: scale(0.9);
-	transition: .7s ease-in-out all;
-}
-
-.contenedor3 img.izquierda {
-	transform: translateX(-100px);
-}
-
-.contenedor3 img.derecha {
-	transform: translateX(100px);
-}
-
-.contenedor3 img.visible {
-	opacity: 1;
-	transform: scale(1) translateX(0);
-}
-
-
 
 /*Ver proyecto*/
 
@@ -248,9 +242,11 @@ a{
     transition: 1s ease all;
     padding-bottom: 30px;
     margin: 1170px 20px;
-    word-wrap: break-word;
+    writing-mode: vertical-rl;
     width: 20px;
+    letter-spacing: 16px;
 }
+
 
 
 
@@ -258,7 +254,7 @@ a{
 .ver2 {
     text-align: end;
     font-size: 20px;
-    margin: 300px -130px;
+    margin: 1070px -130px;
     color:#fff;
 }
 
@@ -271,24 +267,25 @@ a{
     top: 0;
     transition: 1s ease all;
     padding-bottom: 30px;
-    margin: 1650px 20px;
-    word-wrap: break-word;
+    margin: 1710px 20px;
+    writing-mode: vertical-rl;
     width: 20px;
+    letter-spacing: 10px;
 }
 
 /*Ver proyecto*/
-.ver3 {
+.ver3{
     text-align: end;
     font-size: 20px;
-    margin: 530px -130px;
+    margin: -220px -130px;
     color:#fff;
 }
 
 /*Imagen una encima de otra*/
-.eye{
+.heaven7{
     position:absolute;
     height:450px;
-    width:550px;
+    width:650px;
     top: 350px;
     left : 500px;
     z-index: 1;
@@ -296,6 +293,8 @@ a{
 	transform: scale(0.9);
 	transition: .7s ease-in-out all;
     object-fit: cover;
+    cursor: pointer;
+    border-radius: 6px;
   }
   .eye:hover{
     transform: scale(1.2);
@@ -309,10 +308,11 @@ a{
     top: 290px;
     left : 400px;
     z-index: -1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
-	transition: .7s ease-in-out all
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
   }
 
   .heaven3
@@ -323,10 +323,11 @@ a{
     top: 350px;
     left : 340px;
     z-index: -1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
-	transition: .7s ease-in-out all
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
   }
 
   .heaven4
@@ -337,10 +338,11 @@ a{
     top: 600px;
     left : 430px;
     z-index: -1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
-	transition: .7s ease-in-out all
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
   }
 
 
@@ -389,12 +391,17 @@ a{
     top: 1130px;
     left : 650px;
     z-index: 1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
-	transition: .7s ease-in-out all;
+	transition: all 500ms ease;
+    border-radius: 6px;
   }
   
+#animacion img:hover{
+    transform: scale(1.15);
+}
+
   .heaven2
   {
     position:absolute;
@@ -403,10 +410,11 @@ a{
     top: 1100px;
     left : 440px;
     z-index: -1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
-	transition: .7s ease-in-out all
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
   }
 
 
@@ -424,6 +432,7 @@ a{
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
+
 }
 
 .contenedor5 img.heaven2{
@@ -442,15 +451,16 @@ a{
 /*Otra sección 3*/
 .eye3{
     position:absolute;
-    height:400px;
+    height:350px;
     width:500px;
-    top: 1660px;
+    top: 1680px;
     left : 560px;
     z-index: 1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all;
+    border-radius: 6px;
   }
   
   .heaven5
@@ -461,10 +471,11 @@ a{
     top: 1700px;
     left : 440px;
     z-index: -1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
-	transition: .7s ease-in-out all
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
   }
 
 
@@ -505,24 +516,26 @@ a{
     top: 2300px;
     left : 650px;
     z-index: 1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
 	transition: .7s ease-in-out all;
+    border-radius: 6px;
   }
   
   .heaven6
   {
     position:absolute;
-    height:400px;
+    height:350px;
     width:500px;
-    top: 2250px;
+    top: 2270px;
     left : 440px;
     z-index: -1;
-
+    cursor: pointer;
     opacity: 1;
 	transform: scale(0.9);
-	transition: .7s ease-in-out all
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
   }
 
 
@@ -565,21 +578,175 @@ a{
     top: 0;
     transition: 1s ease all;
     padding-bottom: 30px;
-    margin: 2270px 20px;
-    word-wrap: break-word;
+    margin: 2290px 20px;
+    writing-mode: vertical-rl;
     width: 20px;
+    letter-spacing: 10px;
 }
 
 
 
-/*Ver proyecto*/
 .ver4 {
     text-align: end;
     font-size: 20px;
-    margin: 300px -130px;
+    margin: 320px -130px;
     color:#fff;}
 
+/*Otra sesion*/
+.eye5{
+    position:absolute;
+    height:300px;
+    width:400px;
+    top: 2900px;
+    left : 650px;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 1;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
+  }
+  
+  .heaven8
+  {
+    position:absolute;
+    height:350px;
+    width:500px;
+    top: 2870px;
+    left : 440px;
+    z-index: -1;
+    cursor: pointer;
+    opacity: 1;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
+  }
 
+
+.contenedor8 {
+	color: #f2f2f2;
+	font-size: 18px;
+	line-height: 30px;
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	text-align: justify;
+}
+
+.contenedor8 img.heaven8{
+	transform: translateX(-200px);
+}
+
+.contenedor8 img.eye5{
+	transform: translateX(100px);
+}
+
+.contenedor8 img.visible {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+}
+
+
+.tit5{
+    font-family:"Monument Extended";
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    transition: 1s ease all;
+    padding-bottom: 30px;
+    margin: 2890px 20px;
+    writing-mode: vertical-rl;
+    width: 20px;
+    letter-spacing: 10px;
+}
+
+.ver5 {
+    text-align: end;
+    font-size: 20px;
+    margin: 250px -130px;
+    color:#fff;
+}
+
+/*Otra sesión de tatoo*/
+.eye6{
+    position:absolute;
+    height:350px;
+    width:500px;
+    top: 3480px;
+    left : 550px;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 1;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
+  }
+  
+  .heaven9
+  {
+    position:absolute;
+    height:300px;
+    width:400px;
+    top: 3500px;
+    left : 440px;
+    z-index: -1;
+    cursor: pointer;
+    opacity: 1;
+	transform: scale(0.9);
+	transition: .7s ease-in-out all;
+    border-radius: 6px;
+  }
+
+
+.contenedor9 {
+	color: #f2f2f2;
+	font-size: 18px;
+	line-height: 30px;
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	text-align: justify;
+}
+
+.contenedor9 img.heaven9{
+	transform: translateX(-200px);
+}
+
+.contenedor9 img.eye6{
+	transform: translateX(100px);
+}
+
+.contenedor9 img.visible {
+	opacity: 1;
+	transform: scale(1) translateX(0);
+}
+
+
+.tit6{
+    font-family:"Monument Extended";
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 15%;
+    top: 0;
+    transition: 1s ease all;
+    padding-bottom: 30px;
+    margin: 3570px 20px;
+    writing-mode: vertical-rl;
+    width: 20px;
+    letter-spacing: 10px;
+}
+
+.ver6 {
+    text-align: end;
+    font-size: 20px;
+    margin: 350px -130px;
+    color:#fff;
+}
+
+/**/
 @keyframes mover{
     0%{
         transform: translate(100%);
@@ -592,10 +759,22 @@ a{
     }
 }
 
-
-
-
-
-
+@keyframes rebote{
+    0%{
+        transform: translateX(-100px);
+    }
+    25%{
+        transform: translateX(-75px);
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    75%{
+        transform: translateX(-25px);
+    }
+ 100%{
+     transform: translateX(0px);
+ }   
+}
 
 

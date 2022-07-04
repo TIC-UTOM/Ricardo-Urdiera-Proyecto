@@ -1,0 +1,105 @@
+.barra {
+
+    font-family: 'Lato', sans-serif;
+    /**Alto y ancho de donde se va a activar cuando pase el mouse**/
+    width:9%;
+    height:10%;
+    /*Para que este siempre en la misma parte de la pantalla aunque se haga scroll*/
+    position:fixed;
+    /*Tiempo en el que va a transitar la animacion*/
+    transition: .4s all ;
+    /*este arriba de todo en la pantalla*/
+    right: 20px;
+    z-index: 3;  
+   
+    
+}
+
+.barra ul{
+    /*solucionar espacios no deseados*/
+    padding:0px;
+    text-align: center;
+     
+}
+.barra  li{
+    /*Velocidad de transicion del contenido*/
+    transition:all .3s;
+    list-style: none; 
+}
+
+.barra a{
+    text-decoration: none;
+    font-weight: normal;
+    /*La letra crece con el menu de esta manera no se va a ver como se ajusta al margen mientras crece*/
+    transition: .3s all ;
+    /*Se ocultan los elementos*/
+    font-size: 0px;
+    padding:0px;
+}
+
+.barra  h2{
+    text-align: center;
+    color:white;
+    padding:20px 0px;
+    padding-bottom:0px;
+
+    /*Se oculta el h2*/
+    font-size:0px;   
+}
+
+.barra img{
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    filter: invert(100%);
+}
+
+.barra:hover{
+    /*Tamaño cuando el cursor señale la barra*/
+    width: 70%;
+    height: 100vh;
+    /*Color*/
+    background: rgba(0, 0, 0, 0.98);
+    right: 0px;
+}
+.barra:hover h2{
+    /*posicion dentro de barra del h2*/
+    padding:15px;
+    font-size: 35px;
+}
+.barra:hover a{ 
+    font-size:20px ;
+    color:white;
+    /*Se usa el display block para que el enlace respete el margin*/
+    display: block;
+    padding:20px;
+}
+.barra:hover img{
+    /*Desaparecer la imagen*/
+    height:0px;
+}
+
+
+.barra:hover li{
+    border-top:1px solid #000000;
+    /*Espacios entre las lineas y el contenido*/
+    width:100%;       
+}
+.barra:hover ul:last-of-type{
+    border-bottom: 1px solid #000000;
+}
+
+.barra:hover a:hover{ 
+    font-size: 25px;
+    padding: 30px 0px; 
+    background: rgba(0, 0, 0, 0.98);  
+}
+
+@media (min-width: 7px){
+    .barra:hover{
+    width: 35%;
+    }
+}
+
+/*Este es un ejemplo de animacion de imagen*/

@@ -87,7 +87,28 @@ section{
     background-image: url('https://www.cameraandlightmag.com/img/img_not/AdobePremierePro_Productions.jpg');
 }
 #sesion3utom{
-    background-image: url('https://scontent.fmlm3-1.fna.fbcdn.net/v/t39.30808-6/278964877_1061349597809811_5020926886760826164_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFLImEHo-l3XH9_Q80A1CB7av-WhTSd0mhq_5aFNJ3SaHfKsS2n2A01DzWUqmOTLFql151Dt0KWaLidZXfAmp8O&_nc_ohc=T5x-mwTiOZkAX-Nt8Yj&_nc_ht=scontent.fmlm3-1.fna&oh=00_AT-79u-F7fSfSP4K-8tfU7TRffNbk7Rb14mUb9xmeFXpUQ&oe=62BD77B4');
+    background-image: url('imagenes/utom.jpg');
+}
+
+/*Sesiones de supermercado*/
+#sesion3super{
+    background-image: url('https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/c94f8ecc-a4cc-11e6-a64d-00163ec9f5fa/3568707584/pventasnet-screenshot.jpg');
+}
+#sesion2super{
+    background-image: url('https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/c94f8ecc-a4cc-11e6-a64d-00163ec9f5fa/265719973/pventasnet-screenshot.jpg');
+}
+#sesion1super{
+    background-image: url('https://static3.ideal.es/www/multimedia/202003/10/media/cortadas/cortes-luz-kCQF-U10045741973952D-624x385@Ideal.jpg');
+}
+/*Sesion de tatuajes*/
+#sesion1tato{
+    background-image: url('http://applicantes.com/wp-content/uploads/2016/04/ink-hunter-app.png');
+}
+#sesion2tato{
+    background-image: url('https://cl.buscafs.com/www.qore.com/public/uploads/images/54316.jpg');
+}
+#sesion3tato{
+    background-image: url('https://play-lh.googleusercontent.com/_rav1PUYGIklRSN3LE1GNgHvj47dGbq4l0px901x3-wJ75meVUOmv8zMYttraXtI4g');
 }
 
 .infor{
@@ -95,7 +116,10 @@ section{
     font-size:54px;
     color: #fff;
     text-align: justify;
+    font-weight: bold;
 }
+
+
 
 .banner_description_info{
     width: 100%;

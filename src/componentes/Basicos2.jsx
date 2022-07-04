@@ -1,42 +1,30 @@
 import React from 'react' ;
 import '../App.css';
+import '../Ejemplo.css';
 import logo from '../imagenes/logo.png';
 import nano from '../imagenes/n1.jpg';
+import menu from '../imagenes/menu.png';
+import utom from '../imagenes/utom.jpg';
 
 
 
 const Basico2 = () => {
     return (
     <div>    
-               <header id="header">
+           <header id="header">
           <img src={logo} alt="" className="logo"/>
 
-          <ul className="main-menu">
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="">
-            <div className="container">
-              <div className="btn-menu">
-                <label for="btn-menu">☰</label>
-              </div>  
-              </div>
-            </li>
-          </ul>
         </header>
       
-      <input type="checkbox" id="btn-menu"/>
-      <div className="container-menu">
-	      <div className="cont-menu">
-          <nav>
-              <a href="/">Inicio</a>
-              <a href="info">Información</a>
-              <a href="contacto">Contacto</a>
-            </nav>
-            <label for="btn-menu">✖️</label>
-          </div>
-        </div>
+       
+        <div class="barra">
+            <h2 ><img src={menu} alt="" className="menu2"/></h2>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="contacto">Contacto</a></li>
+                <li><a href="info">Información</a></li>   
+            </ul>         
+        </div> 
 
           <div className="">
             <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
@@ -47,27 +35,26 @@ const Basico2 = () => {
 
 
 	
-  <div className="contenedor4">
+  <div className="contenedor4" id="animacion">
   <div classsName="Hello">
-		<img src="https://www.bogartmagazine.mx/wp-content/uploads/2020/01/oscars-2019-no-tendran-presentador-1547140357.jpg" className='eye' id="prueba"/>
+		<img src="https://www.bogartmagazine.mx/wp-content/uploads/2020/01/oscars-2019-no-tendran-presentador-1547140357.jpg" className='heaven7' id="prueba"/>
 		<img src="https://periodismodelmotor.com/wp-content/uploads/2020/02/coches-caros-de-mantener-9.jpg" className="heaven" id="prueba1"/>
     <img src={nano} className="heaven3" id="prueba2"/>
     <img src="https://www.eltiempo.com/files/article_main/uploads/2019/11/20/5dd5da6d60d6f.jpeg" className="heaven4" id="prueba3"/>
 	</div>
   </div>
   
+
     <div className="contenedor3">
            <a href="scam"><h1 className="tit2" id="tit2">
-               SCAN CAR
+               Escaner
             </h1></a>
             <img id="imagen2" className="derecha" src="" alt=""/>
         <a href="scam"><h1 className="ver2" id="ver2">Ver proyecto</h1></a>
 	</div>
-  <div className="contenedor5">
-  <div classsName="Hello2">
-		<img src="https://noticias.coches.com/wp-content/uploads/2020/12/coche-colores-Skoda-Fabia.jpg" className='eye2' id="prueba4"/>
-		<img src="https://www.autopista.es/uploads/s1/57/49/97/1/article-20-coches-mas-caros-mundo-2017-58da663add3ae.jpeg" className="heaven2" id="prueba5"/>
-	</div>
+  <div className="contenedor5" id="animacion">
+	<img src="https://www.autopista.es/uploads/s1/57/49/97/1/article-20-coches-mas-caros-mundo-2017-58da663add3ae.jpeg" className="heaven2" id="prueba5"/>
+	<img src="https://noticias.coches.com/wp-content/uploads/2020/12/coche-colores-Skoda-Fabia.jpg" className='eye2' id="prueba4"/>
   </div>
     <br /><br />
     <br /><br />
@@ -78,20 +65,22 @@ const Basico2 = () => {
             </h1></a>
         <a href="utomoscars"><h1 className="ver3" id="ver3">Ver proyecto</h1></a>
 	</div>
-  <div className="contenedor6">
+  <div className="contenedor6" id="animacion">
+
   <div classsName="Hello3">
+
   <img src="https://www.cameraandlightmag.com/img/img_not/AdobePremierePro_Productions.jpg" className='eye3' id="prueba8"/>
-		<img src="https://scontent.fmlm3-1.fna.fbcdn.net/v/t39.30808-6/278964877_1061349597809811_5020926886760826164_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFLImEHo-l3XH9_Q80A1CB7av-WhTSd0mhq_5aFNJ3SaHfKsS2n2A01DzWUqmOTLFql151Dt0KWaLidZXfAmp8O&_nc_ohc=T5x-mwTiOZkAX-Nt8Yj&_nc_ht=scontent.fmlm3-1.fna&oh=00_AT-79u-F7fSfSP4K-8tfU7TRffNbk7Rb14mUb9xmeFXpUQ&oe=62BD77B4" className="heaven5" id="prueba9"/>
+    <img src={utom} className="heaven5" id="prueba9"/>
 	</div>
   </div>
 
   <div className="contenedor3">
-           <a href="micro"><h1 className="tit4" id="tit3">
-               Microchip
+           <a href="micro"><h1 className="tit4" id="tit4">
+             Nanotecologia
             </h1></a>
         <a href="micro"><h1 className="ver4" id="ver3">Ver proyecto</h1></a>
 	</div>
-  <div className="contenedor7">
+  <div className="contenedor7" id="animacion">
   <div classsName="Hello4">
   <img src="https://cdn-3.expansion.mx/1a/41/d6ffe29945248567fda319a38087/istock-532174758.jpg" className='eye4' id="prueba6"/>
 		<img src="https://www.legaltoday.com/wp-content/uploads/2021/05/microchip.jpg" className="heaven6" id="prueba7"/>
@@ -99,9 +88,29 @@ const Basico2 = () => {
 	</div>
   </div>
   
- 
+  <div className="contenedor3">
+           <a href="supermercado"><h1 className="tit5" id="tit5">
+             Supermercado
+            </h1></a>
+        <a href="supermercado"><h1 className="ver5" id="ver3">Ver proyecto</h1></a>
+	</div>
+  <div className="contenedor8" id="animacion">
+  <img src="https://d21dgvqi2xrbq6.cloudfront.net/blog/software-supermercados.png" className='heaven8' id="prueba10"/>
+		<img src="https://elmercantil.com/wp-content/uploads/2020/12/83584364_10157026022254632_545406102938845184_o-e1607591767363-988x556.jpg" className="eye5" id="prueba11"/>
+  </div>
 
-
+  <div className="contenedor3">
+           <a href="tato"><h1 className="tit6" id="tit6">
+             Tatuajes
+            </h1></a>
+        <a href="tato"><h1 className="ver6" id="ver3">Ver proyecto</h1></a>
+	</div>
+  <div className="contenedor9" id="animacion">
+  <img src="https://i.ytimg.com/vi/QkdYij-U9vM/maxresdefault.jpg" className='heaven9' id="prueba12"/>
+		<img src="https://i0.wp.com/thehappening.com/wp-content/uploads/2016/07/ink-hunter-app-tatuajes.jpg?fit=1024%2C694&ssl=1" className="eye6" id="prueba13"/>
+  </div>
+        <a className="Paginacion" href="tato">Anterior</a>
+        <a className="paginacion" href="scam">Siguiente</a>
     </div>
 
     );
@@ -208,10 +217,95 @@ window.addEventListener('scroll', function(){
   }
 })
 
+window.addEventListener('scroll', function(){
+  let animado10 = this.document.getElementById('tit2');
+  let posicionObj11 = animado10.getBoundingClientRect().top;
+  console.log(posicionObj11);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj11 < tamañoPantalla){
+    animado10.style.animation = "rebote 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado11 = this.document.getElementById('tit4');
+  let posicionObj12 = animado11.getBoundingClientRect().top;
+  console.log(posicionObj12);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj12 < tamañoPantalla){
+    animado11.style.animation = "rebote 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado12 = this.document.getElementById('tit3');
+  let posicionObj13 = animado12.getBoundingClientRect().top;
+  console.log(posicionObj13);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj13 < tamañoPantalla){
+    animado12.style.animation = "rebote 1s ease-out"
+  }
+})
 
 
+window.addEventListener('scroll', function(){
+  let animado13 = this.document.getElementById('prueba11');
+  let posicionObj14 = animado13.getBoundingClientRect().top;
+  console.log(posicionObj14);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj14 < tamañoPantalla){
+    animado13.style.animation = "mover 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado14 = this.document.getElementById('prueba10');
+  let posicionObj15 = animado14.getBoundingClientRect().top;
+  console.log(posicionObj15);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj15 < tamañoPantalla){
+    animado14.style.animation = "mover1 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado15 = this.document.getElementById('tit5');
+  let posicionObj16 = animado15.getBoundingClientRect().top;
+  console.log(posicionObj16);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj16 < tamañoPantalla){
+    animado15.style.animation = "rebote 1s ease-out"
+  }
+})
 
 
+window.addEventListener('scroll', function(){
+  let animado16 = this.document.getElementById('prueba13');
+  let posicionObj17 = animado16.getBoundingClientRect().top;
+  console.log(posicionObj17);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj17 < tamañoPantalla){
+    animado16.style.animation = "mover 1s ease-out"
+  }
+})
 
+window.addEventListener('scroll', function(){
+  let animado17 = this.document.getElementById('prueba12');
+  let posicionObj18 = animado17.getBoundingClientRect().top;
+  console.log(posicionObj18);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj18 < tamañoPantalla){
+    animado17.style.animation = "mover1 1s ease-out"
+  }
+})
 
+window.addEventListener('scroll', function(){
+  let animado18 = this.document.getElementById('tit6');
+  let posicionObj19 = animado18.getBoundingClientRect().top;
+  console.log(posicionObj19);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj19 < tamañoPantalla){
+    animado18.style.animation = "rebote 1s ease-out"
+  }
+})
 

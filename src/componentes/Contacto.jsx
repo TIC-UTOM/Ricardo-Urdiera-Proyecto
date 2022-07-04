@@ -1,41 +1,28 @@
 import React from 'react';
 import '../App.css';
 import '../Componente.css';
+import '../Ejemplo.css'
 import logo from '../imagenes/logo.png';
-import nano from '../imagenes/n1.jpg';
+import menu from '../imagenes/menu.png';
+
 
 const Informacion = () => {
     return (
         <div>
-                  <header id="header">
+           <header id="header">
           <img src={logo} alt="" className="logo"/>
 
-          <ul className="main-menu">
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="">
-            <div className="container">
-              <div className="btn-menu">
-                <label for="btn-menu">☰</label>
-              </div>  
-              </div>
-            </li>
-          </ul>
         </header>
       
-      <input type="checkbox" id="btn-menu"/>
-      <div className="container-menu">
-	      <div className="cont-menu">
-          <nav>
-              <a href="/">Inicio</a>
-              <a href="info">Información</a>
-              <a href="contacto">Contacto</a>
-            </nav>
-            <label for="btn-menu">✖️</label>
-          </div>
-        </div>
+       
+        <div class="barra">
+            <h2 ><img src={menu} alt="" className="menu2"/></h2>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="contacto">Contacto</a></li>
+                <li><a href="info">Información</a></li>   
+            </ul>         
+        </div> 
 
           <div className="">
             <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>

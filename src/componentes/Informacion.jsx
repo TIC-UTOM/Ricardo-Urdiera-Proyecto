@@ -1,7 +1,8 @@
 import React from 'react' ;
 import '../App.css';
+import '../Ejemplo.css'
 import logo from '../imagenes/logo.png';
-import nano from '../imagenes/n1.jpg';
+import menu from '../imagenes/menu.png';
 
 /*js de app*/  
   const Informacion = () => {
@@ -10,32 +11,17 @@ import nano from '../imagenes/n1.jpg';
           <header id="header">
           <img src={logo} alt="" className="logo"/>
 
-          <ul className="main-menu">
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="menu-item"></li>
-            <li className="">
-            <div className="container">
-              <div className="btn-menu">
-                <label for="btn-menu">☰</label>
-              </div>  
-              </div>
-            </li>
-          </ul>
         </header>
       
-      <input type="checkbox" id="btn-menu"/>
-      <div className="container-menu">
-	      <div className="cont-menu">
-          <nav>
-              <a href="/">Inicio</a>
-              <a href="info">Información</a>
-              <a href="contacto">Contacto</a>
-            </nav>
-            <label for="btn-menu">✖️</label>
-          </div>
-        </div>
+       
+        <div class="barra">
+            <h2 ><img src={menu} alt="" className="menu2"/></h2>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="contacto">Contacto</a></li>
+                <li><a href="info">Información</a></li>   
+            </ul>         
+        </div> 
 
           <div className="">
             <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
@@ -44,10 +30,10 @@ import nano from '../imagenes/n1.jpg';
             <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
           <div className="banner_description_info">
-            <p className="infor">
+            <p className="infor" id="info">
           Hola soy Ricardo Urdiera , pero 
           llámame Ricardo. Estudio en la UTOM
-          en la carrera de Gestion y Desarrollo de software,
+          en la carrera de Gestión y Desarrollo de software,
            aportando nuevas tecnologías para la sociedad, 
            al igual que diseños en animación.</p>
         </div>
@@ -55,3 +41,6 @@ import nano from '../imagenes/n1.jpg';
         )
     }
     export default Informacion ;
+
+
+    

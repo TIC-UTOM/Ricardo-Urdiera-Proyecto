@@ -5,6 +5,8 @@ import Utomoscars from './componentes/Utomoscars';
 import Lista_desplegable from './componentes/Lista_desplegable';
 import Informacion from './componentes/Informacion';
 import Contacto from './componentes/Contacto';
+import Ejemplozoom from './componentes/Ejemplozoom';
+import Tatoo from './componentes/Tatuajes';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -35,6 +37,12 @@ const App = () => {
     </Route>
     <Route path="/contacto">
       <Contacto/>
+    </Route>
+    <Route path="/supermercado">
+      <Ejemplozoom/>
+    </Route>
+    <Route path="/tato">
+      <Tatoo/>
     </Route>
     </Switch>    
    </div>
