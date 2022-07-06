@@ -111,6 +111,16 @@ section{
     background-image: url('https://play-lh.googleusercontent.com/_rav1PUYGIklRSN3LE1GNgHvj47dGbq4l0px901x3-wJ75meVUOmv8zMYttraXtI4g');
 }
 
+#sesion1Estadia{
+    background-image: url('imagenes/ordenE1.jpg');
+}
+#sesion2Estadia{
+    background-image: url('imagenes/ordenE2.jpg');
+}
+#sesion3Estadia{
+    background-image: url('imagenes/ordenE3.jpg');
+}
+
 .infor{
     margin: 0.5em 0;
     font-size:54px;

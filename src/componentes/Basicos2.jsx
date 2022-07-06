@@ -5,6 +5,8 @@ import logo from '../imagenes/logo.png';
 import nano from '../imagenes/n1.jpg';
 import menu from '../imagenes/menu.png';
 import utom from '../imagenes/utom.jpg';
+import orden from '../imagenes/orden.jpg';
+import orden1 from '../imagenes/orden1.jpg';
 
 
 
@@ -109,6 +111,17 @@ const Basico2 = () => {
   <img src="https://i.ytimg.com/vi/QkdYij-U9vM/maxresdefault.jpg" className='heaven9' id="prueba12"/>
 		<img src="https://i0.wp.com/thehappening.com/wp-content/uploads/2016/07/ink-hunter-app-tatuajes.jpg?fit=1024%2C694&ssl=1" className="eye6" id="prueba13"/>
   </div>
+  <div className="contenedor3">
+           <a href="Estadia"><h1 className="tit7" id="tit7">
+             Estadias
+            </h1></a>
+        <a href="Estadia"><h1 className="ver7" id="ver3">Ver proyecto</h1></a>
+	</div>
+  <div className="contenedor10" id="animacion">
+  <img src={orden} className='heaven10' id="prueba14"/>
+		<img src={orden1} className="eye7" id="prueba15"/>
+  </div>
+
         <a className="Paginacion" href="tato">Anterior</a>
         <a className="paginacion" href="scam">Siguiente</a>
     </div>
@@ -306,6 +319,36 @@ window.addEventListener('scroll', function(){
   let tamañoPantalla = window.innerHeight/3.5;
   if(posicionObj19 < tamañoPantalla){
     animado18.style.animation = "rebote 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado19 = this.document.getElementById('prueba15');
+  let posicionObj20 = animado19.getBoundingClientRect().top;
+  console.log(posicionObj20);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj20 < tamañoPantalla){
+    animado19.style.animation = "mover 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado20 = this.document.getElementById('prueba14');
+  let posicionObj21 = animado20.getBoundingClientRect().top;
+  console.log(posicionObj21);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj21 < tamañoPantalla){
+    animado20.style.animation = "mover1 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado21 = this.document.getElementById('tit7');
+  let posicionObj22 = animado21.getBoundingClientRect().top;
+  console.log(posicionObj22);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj22 < tamañoPantalla){
+    animado21.style.animation = "rebote 1s ease-out"
   }
 })
 

@@ -7,6 +7,8 @@ import Informacion from './componentes/Informacion';
 import Contacto from './componentes/Contacto';
 import Ejemplozoom from './componentes/Ejemplozoom';
 import Tatoo from './componentes/Tatuajes';
+import Estadia from './componentes/Estadias';
+import Marvel from './componentes/ApiMarvel'
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -43,6 +45,12 @@ const App = () => {
     </Route>
     <Route path="/tato">
       <Tatoo/>
+    </Route>
+    <Route path="/Estadia">
+      <Estadia/>
+    </Route>
+    <Route path="/Marvel">
+      <Marvel/>
     </Route>
     </Switch>    
    </div>
