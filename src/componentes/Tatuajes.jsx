@@ -24,7 +24,8 @@ const Informacion = () => {
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="contacto">Contacto</a></li>
-                <li><a href="info">Información</a></li>   
+                <li><a href="info">Información</a></li>
+                <li><a href="Terminos">Politicas de Privacidad</a></li>    
             </ul>         
         </div> 
     
@@ -40,10 +41,13 @@ const Informacion = () => {
             <div className="banner_description">
                 <h1 className="escaner">Tatuajes</h1>
                 <p className="texto">
-                El proyecto de tatuajes se tenia planteado que se hiciera con realidad aumentada,
-                esta al ser una app para dispositivos mobiles, se colocaba la camara y enfocaria 
-                la parte que quisiera que tiviera el tatuaje, por medio de una carita dibujada, 
-                el proyecto no se llevo acabo, pero no esta descartado aun.  
+                El proyecto de los tatuajes, solo se quedó en el prototipo, pero eso no indica que no se pueda
+                 realizar, ya que toda la estructura está realizada, faltaría lo que es la parte de programación,
+                  la función del proyecto es que usando realidad aumenta, este nos muestre en la parte que 
+                  enfoquemos con una pequeña cara dibujada con una pluma  nos coloque lo que es el diseño de
+                   tatuaje que hemos elegido y de esta forma determinar si nos ha gusta dicho tatuaje, en la 
+                   parte de los tatuajes son una base de datos, en la que los usuarios suben sus trabajos 
+                   y de esta forma puedan ser conocidos y usados.   
                 </p>
                 <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
                 <a  className="regreso" href="/">Regresar</a>
@@ -58,7 +62,7 @@ const Informacion = () => {
             </div>
         </section>
             <a className="Paginacion" href="supermercado">Anterior</a>
-            <a className="paginacion" href="/">Siguiente</a>
+            <a className="paginacion" href="Estadia">Siguiente</a>
         </div>    
     );
 }

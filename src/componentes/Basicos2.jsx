@@ -2,11 +2,15 @@ import React from 'react' ;
 import '../App.css';
 import '../Ejemplo.css';
 import logo from '../imagenes/logo.png';
-import nano from '../imagenes/n1.jpg';
+import tienda from '../imagenes/tienda1.JPG';
 import menu from '../imagenes/menu.png';
 import utom from '../imagenes/utom.jpg';
 import orden from '../imagenes/orden.jpg';
 import orden1 from '../imagenes/orden1.jpg';
+import utom1 from '../imagenes/utom1.jpg';
+import escaner from '../imagenes/escaner.png';
+
+
 
 
 
@@ -24,7 +28,8 @@ const Basico2 = () => {
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="contacto">Contacto</a></li>
-                <li><a href="info">Información</a></li>   
+                <li><a href="info">Información</a></li>
+                <li><a href="Terminos">Politicas de Privacidad</a></li>    
             </ul>         
         </div> 
 
@@ -39,10 +44,10 @@ const Basico2 = () => {
 	
   <div className="contenedor4" id="animacion">
   <div classsName="Hello">
-		<img src="https://www.bogartmagazine.mx/wp-content/uploads/2020/01/oscars-2019-no-tendran-presentador-1547140357.jpg" className='heaven7' id="prueba"/>
-		<img src="https://periodismodelmotor.com/wp-content/uploads/2020/02/coches-caros-de-mantener-9.jpg" className="heaven" id="prueba1"/>
-    <img src={nano} className="heaven3" id="prueba2"/>
-    <img src="https://www.eltiempo.com/files/article_main/uploads/2019/11/20/5dd5da6d60d6f.jpeg" className="heaven4" id="prueba3"/>
+		<img src={utom1} className='heaven7' id="prueba"/>
+		<img src="https://noticias.coches.com/wp-content/uploads/2020/12/coche-colores-Skoda-Fabia.jpg" className="heaven" id="prueba1"/>
+    <img src="https://www.eltiempo.com/files/image_640_428/files/crop/uploads/2019/11/20/5dd5da6d60d6f.r_1587769564949.0-128-750-500.jpeg" className="heaven3" id="prueba2"/>
+    <img src="https://i.ytimg.com/vi/QkdYij-U9vM/maxresdefault.jpg" className="heaven4" id="prueba3"/>
 	</div>
   </div>
   
@@ -56,14 +61,14 @@ const Basico2 = () => {
 	</div>
   <div className="contenedor5" id="animacion">
 	<img src="https://www.autopista.es/uploads/s1/57/49/97/1/article-20-coches-mas-caros-mundo-2017-58da663add3ae.jpeg" className="heaven2" id="prueba5"/>
-	<img src="https://noticias.coches.com/wp-content/uploads/2020/12/coche-colores-Skoda-Fabia.jpg" className='eye2' id="prueba4"/>
+	<img src={escaner} className='eye2' id="prueba4"/>
   </div>
     <br /><br />
     <br /><br />
     <br /><br />
     <div className="contenedor3">
            <a href="utomoscars"><h1 className="tit3" id="tit3">
-               UTOMoscars
+               UTOoscars
             </h1></a>
         <a href="utomoscars"><h1 className="ver3" id="ver3">Ver proyecto</h1></a>
 	</div>
@@ -97,7 +102,7 @@ const Basico2 = () => {
         <a href="supermercado"><h1 className="ver5" id="ver3">Ver proyecto</h1></a>
 	</div>
   <div className="contenedor8" id="animacion">
-  <img src="https://d21dgvqi2xrbq6.cloudfront.net/blog/software-supermercados.png" className='heaven8' id="prueba10"/>
+  <img src={tienda} className='heaven8' id="prueba10"/>
 		<img src="https://elmercantil.com/wp-content/uploads/2020/12/83584364_10157026022254632_545406102938845184_o-e1607591767363-988x556.jpg" className="eye5" id="prueba11"/>
   </div>
 
@@ -122,7 +127,18 @@ const Basico2 = () => {
 		<img src={orden1} className="eye7" id="prueba15"/>
   </div>
 
-        <a className="Paginacion" href="tato">Anterior</a>
+  <div className="contenedor3">
+           <a href="Marvel"><h1 className="tit8" id="tit8">
+             Marvel_API
+            </h1></a>
+        <a href="Marvel"><h1 className="ver8" id="ver3">Ver proyecto</h1></a>
+	</div>
+  <div className="contenedor11" id="animacion">
+  <img src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2019/07/hipertextual-marvel-revela-sera-final-universo-marvel-2019314666.jpg?fit=1200%2C782&quality=50&strip=all&ssl=1" className='heaven11' id="prueba16"/>
+		<img src="https://as01.epimg.net/meristation/imagenes/2020/09/30/noticias/1601498876_582320_1601498920_noticia_normal.jpg" className="eye8" id="prueba17"/>
+  </div>
+
+        <a className="Paginacion" href="Marvel">Anterior</a>
         <a className="paginacion" href="scam">Siguiente</a>
     </div>
 
@@ -349,6 +365,37 @@ window.addEventListener('scroll', function(){
   let tamañoPantalla = window.innerHeight/3.5;
   if(posicionObj22 < tamañoPantalla){
     animado21.style.animation = "rebote 1s ease-out"
+  }
+})
+
+
+window.addEventListener('scroll', function(){
+  let animado22 = this.document.getElementById('prueba17');
+  let posicionObj23 = animado22.getBoundingClientRect().top;
+  console.log(posicionObj23);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj23 < tamañoPantalla){
+    animado22.style.animation = "mover 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado23 = this.document.getElementById('prueba16');
+  let posicionObj24 = animado23.getBoundingClientRect().top;
+  console.log(posicionObj24);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj24 < tamañoPantalla){
+    animado23.style.animation = "mover1 1s ease-out"
+  }
+})
+
+window.addEventListener('scroll', function(){
+  let animado24 = this.document.getElementById('tit8');
+  let posicionObj25 = animado24.getBoundingClientRect().top;
+  console.log(posicionObj25);
+  let tamañoPantalla = window.innerHeight/3.5;
+  if(posicionObj25 < tamañoPantalla){
+    animado24.style.animation = "rebote 1s ease-out"
   }
 })
 

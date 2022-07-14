@@ -20,7 +20,8 @@ import menu from '../imagenes/menu.png';
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="contacto">Contacto</a></li>
-                <li><a href="info">Información</a></li>   
+                <li><a href="info">Información</a></li>
+                <li><a href="Terminos">Politicas de Privacidad</a></li>    
             </ul>         
         </div> 
 
@@ -34,11 +35,13 @@ import menu from '../imagenes/menu.png';
 
     <section className="parallax" id='sesion1utom'>
         <div className="banner_description">
-            <h1 className="escaner">UTOMoscars</h1>
-            <p className="texto">El proyecto de los Utomoscars era doblar una pelicula en el idioma inglés
-            en la cual yo estuve a cargo de la parte de edición, guion y audio, es decir, de la parte
-            de multimedia, el cual para poder terminar dicho proyecto fue de 3 semenas, en la cual se edito todos los
-            días</p>
+            <h1 className="escaner">UTOscars</h1>
+            <p className="texto">El proyecto de los UTOscars fue realizado en el 8vo cuatrimestre, 
+            este se realizó para la materia de inglés, en el cual consistía el editar, realizar y doblar
+             (En inglés) una película, todo se esto acompañado de lo que es un poster de la película, el 
+             cual también fue realizado por el equipo de trabajo, todo esto fue realizado en el tiempo de 
+             un mes, ya que la edición de la película y el doblaje fue lo más difícil. Pero el trabajo 
+             rindió los frutos al ganar a mejor edición y mejor guión.</p>
             <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
             <a  className="regreso" href="/">Regresar</a>
         </div>

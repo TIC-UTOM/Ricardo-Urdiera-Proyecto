@@ -17,8 +17,9 @@ body{
 
 .texto{
     margin: 0.5em 0;
-    font-size:15px;
+    font-size:20px;
     color: #fff;
+    text-align: justify;
 
 }
 
@@ -34,8 +35,8 @@ body{
 
 .escaner{
     font-weight: 600;
-    font-size: 2em;
-    margin: 1.3em 0px;
+    font-size: 1.5em;
+    margin: 1.9em 0px;
     color: #fff;
 }
 
@@ -59,32 +60,41 @@ section{
     background: #fff fixed no-repeat 50% 50%;
     background-size: cover;
 }
-
+/*sesion Carros*/
 #sesion1{
     background-image: url('https://periodismodelmotor.com/wp-content/uploads/2020/02/coches-caros-de-mantener-9.jpg');
+    
+    background-color: rgb(60, 60, 60);
+    background-blend-mode: soft-light;
 }
 #sesion2{
     background-image: url('https://noticias.coches.com/wp-content/uploads/2020/12/coche-colores-Skoda-Fabia.jpg');
 }
 #sesion3{
-    background-image: url('https://www.autopista.es/uploads/s1/57/49/97/1/article-20-coches-mas-caros-mundo-2017-58da663add3ae.jpeg');
+    background-image: url('imagenes/escaner1.jpg');
+    background-position: center;
 }
 /*Sesiones de parallax de nanotecologia*/
 #sesion1nano{
-    background-image: url('https://www.eltiempo.com/files/article_main/uploads/2019/11/20/5dd5da6d60d6f.jpeg');
+    background-image: url('imagenes/nano2.JPG');
+    background-color: rgb(40, 40, 40);
+    background-blend-mode: soft-light;
 }
+
 #sesion2nano{
-    background-image: url('https://cdn-3.expansion.mx/1a/41/d6ffe29945248567fda319a38087/istock-532174758.jpg');
+    background-image: url('imagenes/nano.JPG');
 }
 #sesion3nano{
-    background-image: url('https://www.legaltoday.com/wp-content/uploads/2021/05/microchip.jpg');
+    background-image: url('imagenes/nano1.JPG');
 }
 /*Sesiones de los utomscars*/
 #sesion1utom{
-    background-image: url('https://www.bogartmagazine.mx/wp-content/uploads/2020/01/oscars-2019-no-tendran-presentador-1547140357.jpg');
+    background-image: url('imagenes/video.jpg');
+    background-color: rgb(70, 70, 70);
+    background-blend-mode: soft-light;
 }
 #sesion2utom{
-    background-image: url('https://www.cameraandlightmag.com/img/img_not/AdobePremierePro_Productions.jpg');
+    background-image: url('imagenes/utom1.jpg');
 }
 #sesion3utom{
     background-image: url('imagenes/utom.jpg');
@@ -92,27 +102,35 @@ section{
 
 /*Sesiones de supermercado*/
 #sesion3super{
-    background-image: url('https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/c94f8ecc-a4cc-11e6-a64d-00163ec9f5fa/3568707584/pventasnet-screenshot.jpg');
+    background-image: url('imagenes/tienda1.JPG');
+    
 }
 #sesion2super{
-    background-image: url('https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/c94f8ecc-a4cc-11e6-a64d-00163ec9f5fa/265719973/pventasnet-screenshot.jpg');
+    background-image: url('imagenes/tienda3.JPG');
 }
 #sesion1super{
-    background-image: url('https://static3.ideal.es/www/multimedia/202003/10/media/cortadas/cortes-luz-kCQF-U10045741973952D-624x385@Ideal.jpg');
+    background-image: url('imagenes/tienda2.JPG');
+    background-color: rgb(40, 40, 40);
+    background-blend-mode: soft-light;
 }
 /*Sesion de tatuajes*/
 #sesion1tato{
     background-image: url('http://applicantes.com/wp-content/uploads/2016/04/ink-hunter-app.png');
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
 }
 #sesion2tato{
     background-image: url('https://cl.buscafs.com/www.qore.com/public/uploads/images/54316.jpg');
 }
 #sesion3tato{
-    background-image: url('https://play-lh.googleusercontent.com/_rav1PUYGIklRSN3LE1GNgHvj47dGbq4l0px901x3-wJ75meVUOmv8zMYttraXtI4g');
+    background-image: url('imagenes/tato.png');
 }
-
+/* sesionEstadias*/
 #sesion1Estadia{
     background-image: url('imagenes/ordenE1.jpg');
+    background-color: rgb(40, 40, 40);
+    background-blend-mode: soft-light;
+
 }
 #sesion2Estadia{
     background-image: url('imagenes/ordenE2.jpg');
@@ -142,10 +160,10 @@ section{
 
 .titulo{
     margin: 0.5em 0;
-    font-size:54px;
+    font-size:40px;
     color: #fff;
-    text-align: justify;
-    margin: 80px 200px;
+    text-align:justify;
+    margin: 50px 200px;
 }
 
 #Formulario{

@@ -24,7 +24,8 @@ const Informacion = () => {
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="contacto">Contacto</a></li>
-                <li><a href="info">Información</a></li>   
+                <li><a href="info">Información</a></li>
+                <li><a href="Terminos">Politicas de Privacidad</a></li>    
             </ul>         
         </div> 
     
@@ -38,11 +39,17 @@ const Informacion = () => {
     
         <section className="parallax" id='sesion1Estadia'>
             <div className="banner_description">
-                <h1 className="escaner">Proyecto de Estadias de TSU</h1>
+                <h1 className="escaner">Diseño de publicidad para Orden Express</h1>
                 <p className="texto">
-                    Este proyecto fue realizado en estadias universitarias para la titulación de TSU
-                    el cual fue realizar diseños de publicidad para lo que es orden express, como lo son Banners publicitarios
-                    , publicidad de piso, videos, carteles y presentaciones para pantallas
+                El proyecto de publicidad para orden express fue hecho para estadías o prácticas profesionales,
+                 el cual el propósito era realizar diferentes diseños para la empresa de Orden express, la cual
+                  es un corporativo de paquetería, cambio de dinero, etc. 
+                Este proyecto fue uno de los más profesionales ya que fue entregado para una empresa real,
+                 el material que se entregó fueron banners, carteles, folletos, videos, publicidad de piso, 
+                 saber cómo son cheques falsos y rediseñar material.
+                Todo esto fue diseño en software de edición como lo son Photoshop, adobe Illustrator y editores
+                 de video, el proyecto se realizó en un lapso de 4 meses o un total de 500 horas.  
+
                 </p>
                 <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
                 <a  className="regreso" href="/">Regresar</a>
@@ -56,8 +63,8 @@ const Informacion = () => {
             <div className="banner_description">
             </div>
         </section>
-            <a className="Paginacion" href="utomoscars">Anterior</a>
-            <a className="paginacion" href="supermercado">Siguiente</a>
+            <a className="Paginacion" href="tato">Anterior</a>
+            <a className="paginacion" href="Marvel">Siguiente</a>
         </div>    
     );
 }

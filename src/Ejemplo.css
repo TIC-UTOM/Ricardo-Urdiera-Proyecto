@@ -106,4 +106,92 @@
 .Hol{
     color: aliceblue;
     text-align: center;
+    font-size: 2em;
+    margin: 30px 0px;
+}
+
+.Hola{
+    color: aliceblue;
+    text-align: center;
+    font-size:1em;
+
+}
+
+/*Terminos y condiciones*/
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+.contenedor {
+	max-width: 1000px;
+	width: 70%;
+	margin:30px 180px ;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #a09f9f;
+    text-align: justify;
+}
+
+main .contenido .titulos {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #fff;
+    font-size:30px;
+    margin: 40px 10px ;
+    font-weight: bold;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+
+
+.Condiciones{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.1em;
 }

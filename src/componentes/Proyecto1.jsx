@@ -3,7 +3,8 @@ import '../App.css';
 import '../Componente.css';
 import '../Ejemplo.css';
 import logo from '../imagenes/logo.png';
-import menu from '../imagenes/menu.png'
+import menu from '../imagenes/menu.png';
+
 
 
 const Projecto1 = () => {
@@ -20,7 +21,8 @@ const Projecto1 = () => {
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="contacto">Contacto</a></li>
-                <li><a href="info">Información</a></li>   
+                <li><a href="info">Información</a></li>
+                <li><a href="Terminos">Politicas de Privacidad</a></li>    
             </ul>         
         </div> 
 
@@ -36,11 +38,11 @@ const Projecto1 = () => {
     <section className="parallax" id='sesion1'>
         <div className="banner_description">
             <h1 className="escaner">Proyecto de Scam-Car</h1>
-            <p className="texto">El proyecto de escaner para carros, 
-                fue un Proyecto de integradora, donde 
-                se el objetivo es realizar una app que
-                 por medio de un OBD2, este realizara un 
-                 escaneo de un carro</p>
+            <p className="texto">El proyecto SCAM-CAM fue un proyecto el cual se realizó en el 5to cuatrimestre,
+             para la materia de integradora, la función del proyecto es que se pueda medir el funcionamiento de
+              tu coche por medio de un OBD2 y que esta información te la presente en tu teléfono en tiempo real,
+               esto se hizo con la finalidad de la seguridad de las personas, ahorrar tiempo y compras de
+                vehículos más seguras, para más información puedes ver el siguiente video dando clic <a href="https://www.youtube.com/watch?v=LeeWBO-cRYE">aqui</a> </p>
             <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
             <a  className="regreso" href="/">Regresar</a>
         </div>

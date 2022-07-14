@@ -6,6 +6,7 @@ import logo from '../imagenes/logo.png';
 import menu from '../imagenes/menu.png';
 
 
+
 const Informacion = () => {
     return (
         <div>
@@ -20,7 +21,8 @@ const Informacion = () => {
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="contacto">Contacto</a></li>
-                <li><a href="info">Información</a></li>   
+                <li><a href="info">Información</a></li>
+                <li><a href="Terminos">Politicas de Privacidad</a></li>    
             </ul>         
         </div> 
 
@@ -32,29 +34,41 @@ const Informacion = () => {
           </div>
 
         <h1 className="titulo">Contacto</h1>
-
-        <form class="row g-3" id="Formulario">
+        
+        <form class="row g-3" id="Formulario" action="https://formsubmit.co/a5ed39e73e6c5696b6e27c90cf0b8232" method="POST">
   <div class="col-md-6">
   <div class="col-12">
-    <label for="inputAddress" class="form-label">Nombre Completo</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder=""/>
+    <label for="inputAddress" class="form-label">Nombre Completo *</label>
+    <input type="text" class="form-control" id="inputAddress" name="nombre" required/>
   </div>
-    <label for="inputEmail4" class="form-label">Dirección de correo</label>
-    <input type="email" class="form-control" id="inputEmail4"/>
+    <label for="inputCity" class="form-label">Número de telefono</label>
+    <input type="number" class="form-control" id="inputCity" name="numero" />
   </div>
   <div class="col-md-6">
-    <label for="inputCity" class="form-label">Numero de telefono</label>
-    <input type="number" class="form-control" id="inputCity"/>
+    <label for="inputEmail4" class="form-label">Dirección de correo *</label>
+    <input type="email" class="form-control" id="inputEmail4" name="email" required/>
   </div>
   <div class="col-12">
-    <label for="inputAddress" class="form-label">Escribe la solicitud</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder=""/>
+    <label for="inputAddress" class="form-label">Escribe la solicitud *</label>
+    <input type="text" class="form-control" id="inputAddress" name="mensaje" required/>
   </div>
+  <h4 className="Condiciones">Conoce nuestros <a href="Condiciones" className="Condiciones">terminos y condiciones</a></h4>
   <div class="col-12" id="buton">
-    <button type="submit" class="btn btn-primary">Aplicar Todo</button>
+    <button type="submit" class="btn btn-primary">Enviar</button>
   </div>
+
+  <input type="hidden" name="_next" value="http://localhost:3000/contacto"/>
+  <input type="hidden" name="_captcha" value="false"/>
 </form>
+      
+
         </div>
     )
 }
 export default Informacion ;
+
+  
+
+
+
+

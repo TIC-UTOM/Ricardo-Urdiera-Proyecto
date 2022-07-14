@@ -24,7 +24,8 @@ const Informacion = () => {
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="contacto">Contacto</a></li>
-                <li><a href="info">Información</a></li>   
+                <li><a href="info">Información</a></li>
+                <li><a href="Terminos">Politicas de Privacidad</a></li>    
             </ul>         
         </div> 
     
@@ -39,9 +40,11 @@ const Informacion = () => {
         <section className="parallax" id='sesion1nano'>
             <div className="banner_description">
                 <h1 className="escaner">Nanotecologia y Microchip</h1>
-                <p className="texto">El proyecto de nanotecologia y Microchip fue hecho en el 8vo cuatrimestre
-                en el cual se realizo una pagina web, la cual era de Información
-                acerce del tema que se nos fue asignado</p>
+                <p className="texto">El proyecto que lleva como nombre, nanotecnología y microchip, fue el realizar una
+                 página web profesional, el cual consistía en aplicar las tecnologías que hemos visto durante la carrera, 
+                 login funcional, pagina responsiva, contenido en toda la página,  por otro lado, la página contaba con
+                  diferentes cosas, todo esto se realizó en un lapso de 3 meses, el cual fue el tiempo necesario para la 
+                  página que se entregó. </p>
                 <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
                 <a  className="regreso" href="/">Regresar</a>
             </div>

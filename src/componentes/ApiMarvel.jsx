@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import '../App.css';
 import axios from 'axios';
+import logo from '../imagenes/logo.png';
+import menu from '../imagenes/menu.png';
 
 
 //https://gateway.marvel.com:443/v1/public/characters?apikey=56ab2fc363b80a913fb64717d874677a
@@ -29,6 +31,28 @@ import axios from 'axios';
 
     return (
       <div>
+         <header id="header">
+          <img src={logo} alt="" className="logo"/>
+
+        </header>
+      
+       
+        <div class="barra">
+            <h2 ><img src={menu} alt="" className="menu2"/></h2>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="contacto">Contacto</a></li>
+                <li><a href="info">Información</a></li> 
+                <li><a href="Terminos">Politicas de privacidad</a></li>    
+            </ul>         
+        </div> 
+
+          <div className="">
+            <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+          </div>
         <h1 className="Hol">Api de Marvel</h1>
 
         <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -50,6 +74,8 @@ import axios from 'axios';
                 }
 
         </div>
+        <a className="Paginacion" href="Estadia">Anterior</a>
+            <a className="paginacion" href="/">Siguiente</a>
     </div>      
     );
 }

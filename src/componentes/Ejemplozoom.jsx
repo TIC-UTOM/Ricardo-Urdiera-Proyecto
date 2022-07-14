@@ -19,7 +19,8 @@ import menu from '../imagenes/menu.png';
             <ul>
                 <li><a href="/">Inicio</a></li>
                 <li><a href="contacto">Contacto</a></li>
-                <li><a href="info">Información</a></li>   
+                <li><a href="info">Información</a></li>
+                <li><a href="Terminos">Politicas de Privacidad</a></li>    
             </ul>         
         </div> 
 
@@ -33,11 +34,13 @@ import menu from '../imagenes/menu.png';
 
     <section className="parallax" id='sesion1super'>
         <div className="banner_description">
-            <h1 className="escaner">BD Supermercado</h1>
-            <p className="texto">El proyecto de la base de datos para un supermercado, fue un proyecto el cual
-            fue desarrollar un software que permitiera registrar, actualizar y borrar productos de la base de 
-            base de datos, al igual que esta entrega ticket, realiza la cuenta y te dice el total de cambio 
-            por entregar, de igual forma se hace un respaldo cada mes aproximandamente. 
+            <h1 className="escaner">Base Datos Supermercado</h1>
+            <p className="texto">EEl proyecto de base de datos fue un trabajo el cual consistía en un software
+             de escritorio, este lo que hacía era registrar al personal, registrar los productos, marcas, 
+             el realizar tickets de compra, guardar las compras, cuánto dinero se tiene, los recortes, etc.
+            En lo personal es uno de los proyectos más completos que he hecho, al igual que uno de los que 
+            más me han gustado. 
+
             </p>
             <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
             <a  className="regreso" href="/">Regresar</a>
