@@ -137,9 +137,21 @@ a:hover {
 	justify-content: space-between;
 }
 
+@media screen and (max-width: 550px) {
+    .contenedor{  
+      margin: 30px 80px ;
+  }
+}
+
 
 main {
 	min-height: 100vh;
+}
+
+@media screen and (max-width: 550px) {
+    main{  
+      min-height: 30vh;
+  }
 }
 
 main .contenido p {
@@ -149,6 +161,14 @@ main .contenido p {
     text-align: justify;
 }
 
+@media screen and (max-width: 550px) {
+    main .contenido p {  
+      text-align: justify;
+      font-size: 15px;
+      margin-bottom: 10px;
+  }
+}
+
 main .contenido .titulos {
     font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
@@ -156,6 +176,23 @@ main .contenido .titulos {
     font-size:30px;
     margin: 40px 10px ;
     font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    main .contenido .titulos {  
+      font-size: 20px;
+      margin: 40px 0px;
+  }
+}
+
+
+
+@media screen and (max-width: 550px) {
+    main .contenido p {  
+      text-align: justify;
+      font-size: 15px;
+      margin-bottom: 10px;
+  }
 }
 
 main .contenido .fecha {
@@ -195,3 +232,4 @@ main .contenido .fecha {
     color: aliceblue;
     font-size: 1.1em;
 }
+

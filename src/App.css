@@ -22,6 +22,7 @@ header{
     line-height: 7 0px;
     cursor: pointer;
 }
+
 .main-menu{
     display: flex;
     justify-content: center;
@@ -89,8 +90,6 @@ header{
     position:right;
     transition: all 500ms ease;
     transform: translateX(531%);
-   
-
     align-items: center;
  
 }
@@ -131,7 +130,6 @@ header{
 }
 
 /*Animaciones de imagenes*/
-
 section{
     height: 50vh;
     font-size:30px;
@@ -172,10 +170,18 @@ section img{
     transition: 0.5s;
 }
 
+@media screen and (max-width: 550px) {
+    .btn-Noinstagram{  
+      font-size: 17px;
+      right: -100px;
+  }
+}
+
 .btn-Noinstagram:hover{
     text-decoration: none;
     color:#FFD1DC;
 }
+
 
 a{
     text-decoration:none;
@@ -204,6 +210,13 @@ a{
     padding: 0 5%;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 550px) {
+    .btn-instagram{  
+      font-size: 17px;
+  }
+}
+
 .btn-instagram:hover{
     text-decoration: none;
     color:#FFD1DC;
@@ -211,13 +224,11 @@ a{
 
 /*Imagen ultimas*/
 
-
-
 .contenedor3 {
 	color: #f2f2f2;
 	font-size: 18px;
 	line-height: 30px;
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
@@ -228,10 +239,7 @@ a{
     padding: 0 3%;
     
 }
-
 /*Ver proyecto*/
-
-
 .tit2{
     font-family:"Monument Extended";
     color: #fff;
@@ -247,6 +255,14 @@ a{
     letter-spacing: 16px;
 }
 
+@media screen and (max-width: 650px) {
+    .tit2{  
+      font-size: 17px;
+      left: 0;
+      margin: 1200px 30px;
+  }
+}
+
 
 
 
@@ -258,6 +274,12 @@ a{
     color:#fff;
 }
 
+@media screen and (max-width: 650px) {
+    .ver2{  
+      font-size: 15px;
+  }
+}
+
 .tit3{
     font-family:"Monument Extended";
     color: #fff;
@@ -267,10 +289,18 @@ a{
     top: 0;
     transition: 1s ease all;
     padding-bottom: 30px;
-    margin: 1710px 20px;
+    margin: 1740px 20px;
     writing-mode: vertical-rl;
     width: 20px;
     letter-spacing: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .tit3{  
+      font-size: 17px;
+      left: 0;
+      margin: 1760px 30px;
+  }
 }
 
 /*Ver proyecto*/
@@ -279,6 +309,12 @@ a{
     font-size: 20px;
     margin: -220px -130px;
     color:#fff;
+}
+
+@media screen and (max-width: 650px) {
+    .ver3{  
+      font-size: 15px;
+  }
 }
 
 /*Imagen una encima de otra*/
@@ -296,6 +332,13 @@ a{
     cursor: pointer;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 650px) {
+    .heaven7{  
+      opacity: 0;
+  }
+}
+
   .eye:hover{
     transform: scale(1.2);
   }
@@ -315,6 +358,15 @@ a{
     border-radius: 6px;
   }
 
+  @media screen and (max-width: 650px) {
+    .heaven{  
+      width: 90%;
+      height: 500px;
+      left: 230px;
+      top: 290px;
+  }
+}
+
   .heaven3
   {
     position:absolute;
@@ -329,6 +381,12 @@ a{
 	transition: .7s ease-in-out all;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 650px) {
+    .heaven3{  
+      opacity: 0;
+  }
+}
 
   .heaven4
   {
@@ -345,6 +403,12 @@ a{
     border-radius: 6px;
   }
 
+  @media screen and (max-width: 650px) {
+    .heaven4{  
+      opacity: 0;
+  }
+}
+
 
 .Hello{
     position: relative;
@@ -356,7 +420,7 @@ a{
 	color: #f2f2f2;
 	font-size: 18px;
 	line-height: 30px;
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
@@ -398,6 +462,12 @@ a{
     border-radius: 6px;
   }
   
+  @media screen and (max-width: 650px) {
+    .eye2{ 
+      opacity: 0;
+  }
+}
+
 #animacion img:hover{
     transform: scale(1.15);
 }
@@ -417,6 +487,13 @@ a{
     border-radius: 6px;
   }
 
+  @media screen and (max-width: 650px) {
+    .heaven2{  
+      width: 80%;
+      left: 280px;
+      top: 1100px;
+  }
+}
 
 .Hello2{
     position: relative;
@@ -428,7 +505,7 @@ a{
 	color: #f2f2f2;
 	font-size: 18px;
 	line-height: 30px;
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
@@ -462,6 +539,12 @@ a{
 	transition: .7s ease-in-out all;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 650px) {
+    .eye3{  
+      opacity: 0;
+  }
+}
   
   .heaven5
   {
@@ -477,6 +560,14 @@ a{
 	transition: .7s ease-in-out all;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 650px) {
+    .heaven5{  
+      width: 80%;
+      left: 280px;
+      top: 1700px;
+  }
+}
 
 
 .Hello3{
@@ -522,6 +613,12 @@ a{
 	transition: .7s ease-in-out all;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 650px) {
+    .eye4{  
+      opacity: 0;
+  }
+}
   
   .heaven6
   {
@@ -538,6 +635,14 @@ a{
     border-radius: 6px;
   }
 
+  @media screen and (max-width: 650px) {
+    .heaven6{  
+      width: 80%;
+      left: 280px;
+      top: 2270px;
+  }
+}
+
 
 .Hello4{
     position: relative;
@@ -549,7 +654,7 @@ a{
 	color: #f2f2f2;
 	font-size: 18px;
 	line-height: 30px;
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
@@ -584,7 +689,13 @@ a{
     letter-spacing: 10px;
 }
 
-
+@media screen and (max-width: 650px) {
+    .tit4{  
+      font-size: 17px;
+      left: 0;
+      margin: 2340px 30px;
+  }
+}
 
 .ver4 {
     text-align: end;
@@ -592,6 +703,11 @@ a{
     margin: 320px -130px;
     color:#fff;}
 
+    @media screen and (max-width: 650px) {
+        .ver4{  
+          font-size: 15px;
+      }
+    }
 /*Otra sesion*/
 .eye5{
     position:absolute;
@@ -607,6 +723,12 @@ a{
     border-radius: 6px;
   }
   
+  @media screen and (max-width: 650px) {
+    .eye5{  
+      opacity: 0;
+  }
+}
+
   .heaven8
   {
     position:absolute;
@@ -622,12 +744,20 @@ a{
     border-radius: 6px;
   }
 
+  @media screen and (max-width: 650px) {
+    .heaven8{  
+      width: 80%;
+      left: 280px;
+      top: 2870px;
+  }
+}
+
 
 .contenedor8 {
 	color: #f2f2f2;
 	font-size: 18px;
 	line-height: 30px;
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
@@ -662,11 +792,25 @@ a{
     letter-spacing: 10px;
 }
 
+@media screen and (max-width: 650px) {
+    .tit5{  
+      font-size: 17px;
+      left: 0;
+      margin: 2940px 30px;
+  }
+}
 .ver5 {
     text-align: end;
     font-size: 20px;
     margin: 250px -130px;
     color:#fff;
+}
+
+@media screen and (max-width: 650px) {
+    .ver5{  
+      font-size: 15px;
+      margin: 270px -130px;
+  }
 }
 
 /*Otra sesión de tatoo*/
@@ -683,6 +827,12 @@ a{
 	transition: .7s ease-in-out all;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 650px) {
+    .eye6{  
+      opacity: 0;
+  }
+} 
   
   .heaven9
   {
@@ -699,12 +849,19 @@ a{
     border-radius: 6px;
   }
 
+  @media screen and (max-width: 650px) {
+    .heaven9{  
+      width: 80%;
+      left: 280px;
+      top: 3500px;
+  }
+}
 
 .contenedor9 {
 	color: #f2f2f2;
 	font-size: 18px;
 	line-height: 30px;
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
@@ -739,6 +896,14 @@ a{
     letter-spacing: 10px;
 }
 
+@media screen and (max-width: 650px) {
+    .tit6{  
+      font-size: 17px;
+      left: 0;
+      margin: 3570px 30px;
+  }
+}
+
 .ver6 {
     text-align: end;
     font-size: 20px;
@@ -746,12 +911,19 @@ a{
     color:#fff;
 }
 
+@media screen and (max-width: 650px) {
+    .ver6{  
+      font-size: 15px;
+      margin: 320px -130px;
+  }
+}
+
 /*sección de estadias*/
 .eye7{
     position:absolute;
     height:300px;
     width:400px;
-    top: 4340px;
+    top: 4190px;
     left : 650px;
     z-index: 1;
     cursor: pointer;
@@ -760,13 +932,19 @@ a{
 	transition: .7s ease-in-out all;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 650px) {
+    .eye7{  
+      opacity: 0;
+  }
+}
   
   .heaven10
   {
     position:absolute;
     height:350px;
     width:500px;
-    top: 4310px;
+    top: 4170px;
     left : 440px;
     z-index: -1;
     cursor: pointer;
@@ -776,12 +954,19 @@ a{
     border-radius: 6px;
   }
 
+  @media screen and (max-width: 650px) {
+    .heaven10{  
+      width: 80%;
+      left: 280px;
+      top: 4170px;
+  }
+}
 
 .contenedor10 {
 	color: #f2f2f2;
 	font-size: 18px;
 	line-height: 30px;
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
@@ -810,25 +995,38 @@ a{
     top: 0;
     transition: 1s ease all;
     padding-bottom: 30px;
-    margin: 4370px 20px;
+    margin: 4270px 20px;
     writing-mode: vertical-rl;
     width: 20px;
     letter-spacing: 10px;
 }
 
+@media screen and (max-width: 650px) {
+    .tit7{  
+      font-size: 17px;
+      left: 0;
+  }
+}
+
 .ver7 {
     text-align: end;
     font-size: 20px;
-    margin: 450px -130px;
+    margin: 300px -130px;
     color:#fff;
 }
 
+@media screen and (max-width: 550px) {
+    .ver7{  
+      font-size: 15px;
+      margin: 350px -130px;
+  }
+}
 /*Otra sección siiu*/
 .eye8{
     position:absolute;
     height:300px;
     width:400px;
-    top: 5070px;
+    top: 4870px;
     left : 650px;
     z-index: 1;
     cursor: pointer;
@@ -837,13 +1035,19 @@ a{
 	transition: .7s ease-in-out all;
     border-radius: 6px;
   }
+
+  @media screen and (max-width: 650px) {
+    .eye8{  
+      opacity: 0;
+  }
+}
   
   .heaven11
   {
     position:absolute;
     height:350px;
     width:500px;
-    top: 5050px;
+    top: 4845px;
     left : 440px;
     z-index: -1;
     cursor: pointer;
@@ -853,12 +1057,20 @@ a{
     border-radius: 6px;
   }
 
+  @media screen and (max-width: 650px) {
+    .heaven11{  
+      width: 80%;
+      left: 280px;
+      top: 4845px;
+  }
+}
+
 
 .contenedor11 {
 	color: #f2f2f2;
 	font-size: 18px;
 	line-height: 30px;
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	text-align: justify;
@@ -887,17 +1099,31 @@ a{
     top: 0;
     transition: 1s ease all;
     padding-bottom: 30px;
-    margin: 5110px 20px;
+    margin: 4900px 20px;
     writing-mode: vertical-rl;
     width: 20px;
     letter-spacing: 10px;
 }
 
+@media screen and (max-width: 650px) {
+    .tit8{  
+      font-size: 17px;
+      left: 0;
+      margin: 4940px 30px;
+  }
+}
+
 .ver8 {
     text-align: end;
     font-size: 20px;
-    margin: 250px -130px;
+    margin: 330px -130px;
     color:#fff;
+}
+
+@media screen and (max-width: 650px) {
+    .ver8{  
+      font-size: 15px;
+  }
 }
 
 /**/

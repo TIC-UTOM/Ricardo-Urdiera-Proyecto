@@ -46,7 +46,7 @@ const Informacion = () => {
                   diferentes cosas, todo esto se realizó en un lapso de 3 meses, el cual fue el tiempo necesario para la 
                   página que se entregó. </p>
                 <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
-                <a  className="regreso" href="/">Regresar</a>
+                <a href="/" className="texto" id="regresar">Regresar</a>
             </div>
         </section>
         <section className="parallax" id='sesion2nano'>

@@ -43,7 +43,7 @@ import menu from '../imagenes/menu.png';
              un mes, ya que la edición de la película y el doblaje fue lo más difícil. Pero el trabajo 
              rindió los frutos al ganar a mejor edición y mejor guión.</p>
             <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
-            <a  className="regreso" href="/">Regresar</a>
+            <a href="/" className="texto" id="regresar">Regresar</a>
         </div>
     </section>
     <section className="parallax" id='sesion2utom'>

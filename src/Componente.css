@@ -4,15 +4,32 @@ body{
     padding-bottom: 5em;
 }
 
+
+
 .Paginacion{
     color: #fff;
     font-size:20px;
     margin: 0px 450px
 }
+
+@media screen and (max-width: 550px) {
+    .Paginacion{  
+     font-size: 17px;
+     margin: 0px 110px;
+  }
+}
+
 .paginacion{
     color: #fff;
     font-size:20px;
     margin: 0px -300px;
+}
+
+@media screen and (max-width: 550px) {
+    .paginacion{  
+      font-size:17px;
+      margin: 0px 0px;
+  }
 }
 
 .texto{
@@ -20,7 +37,6 @@ body{
     font-size:20px;
     color: #fff;
     text-align: justify;
-
 }
 
 .regreso{
@@ -38,6 +54,12 @@ body{
     font-size: 1.5em;
     margin: 1.9em 0px;
     color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    .escaner{  
+      font-size: 30px;
+  }
 }
 
 .banner_description{
@@ -62,81 +84,96 @@ section{
 }
 /*sesion Carros*/
 #sesion1{
-    background-image: url('https://periodismodelmotor.com/wp-content/uploads/2020/02/coches-caros-de-mantener-9.jpg');
-    
+    background-image: url('imagenes/carro.jpg');
     background-color: rgb(60, 60, 60);
     background-blend-mode: soft-light;
+    width: 100%;
 }
 #sesion2{
-    background-image: url('https://noticias.coches.com/wp-content/uploads/2020/12/coche-colores-Skoda-Fabia.jpg');
+    background-image: url('imagenes/deportivos.jpg');
+    width: 100%;
 }
 #sesion3{
     background-image: url('imagenes/escaner1.jpg');
     background-position: center;
+    width: 100%;
 }
 /*Sesiones de parallax de nanotecologia*/
 #sesion1nano{
     background-image: url('imagenes/nano2.JPG');
     background-color: rgb(40, 40, 40);
     background-blend-mode: soft-light;
+    width: 100%;
 }
 
 #sesion2nano{
     background-image: url('imagenes/nano.JPG');
+    width: 100%;
 }
 #sesion3nano{
     background-image: url('imagenes/nano1.JPG');
+    width: 100%;
 }
 /*Sesiones de los utomscars*/
 #sesion1utom{
     background-image: url('imagenes/video.jpg');
     background-color: rgb(70, 70, 70);
     background-blend-mode: soft-light;
+    width: 100%;
 }
 #sesion2utom{
     background-image: url('imagenes/utom1.jpg');
+    width: 100%;
 }
 #sesion3utom{
     background-image: url('imagenes/utom.jpg');
+    width: 100%;
 }
 
 /*Sesiones de supermercado*/
 #sesion3super{
     background-image: url('imagenes/tienda1.JPG');
-    
+    width: 100%;
 }
 #sesion2super{
     background-image: url('imagenes/tienda3.JPG');
+    width: 100%;
 }
 #sesion1super{
     background-image: url('imagenes/tienda2.JPG');
     background-color: rgb(40, 40, 40);
     background-blend-mode: soft-light;
+    width: 100%;
 }
 /*Sesion de tatuajes*/
 #sesion1tato{
-    background-image: url('http://applicantes.com/wp-content/uploads/2016/04/ink-hunter-app.png');
+    background-image: url('imagenes/realidad.png');
     background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
+    width: 100%;
 }
 #sesion2tato{
-    background-image: url('https://cl.buscafs.com/www.qore.com/public/uploads/images/54316.jpg');
+    background-image: url('imagenes/tato.jpg');
+    width: 100%;
 }
 #sesion3tato{
     background-image: url('imagenes/tato.png');
+    width: 100%;
 }
 /* sesionEstadias*/
 #sesion1Estadia{
     background-image: url('imagenes/ordenE1.jpg');
     background-color: rgb(40, 40, 40);
     background-blend-mode: soft-light;
-
+    width: 100%;
 }
 #sesion2Estadia{
     background-image: url('imagenes/ordenE2.jpg');
+    width: 100%;
 }
 #sesion3Estadia{
     background-image: url('imagenes/ordenE3.jpg');
+    width: 100%;
 }
 
 .infor{
@@ -166,6 +203,16 @@ section{
     margin: 50px 200px;
 }
 
+@media screen and (max-width: 550px) {
+    .titulo{  
+      font-size: 30px;
+      margin: 40px 0px;
+  }
+}
+
+
+
+
 #Formulario{
     color: #fff;
     margin: 20px 200px;
@@ -173,4 +220,18 @@ section{
 
 #buton{
     text-align: center;
+}
+
+/*Icono de la flecha*/
+#regresar{
+    color:aqua;
+   
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 550px) {
+    .texto{  
+      font-size: 12px;
+  }
 }

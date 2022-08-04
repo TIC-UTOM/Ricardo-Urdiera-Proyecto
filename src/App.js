@@ -11,6 +11,7 @@ import Estadia from './componentes/Estadias';
 import Marvel from './componentes/ApiMarvel';
 import Terminos from './componentes/Terminos_condiciones';
 import Condiciones from './componentes/Terminos_condiciones2';
+import animaciones from './componentes/Animaciones_js';
 import './App.css';
 import {
   BrowserRouter as Router,

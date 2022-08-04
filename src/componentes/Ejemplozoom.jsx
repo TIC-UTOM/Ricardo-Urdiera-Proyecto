@@ -43,7 +43,7 @@ import menu from '../imagenes/menu.png';
 
             </p>
             <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
-            <a  className="regreso" href="/">Regresar</a>
+            <a href="/" className="texto" id="regresar">Regresar</a>
         </div>
     </section>
     <section className="parallax" id='sesion2super'>

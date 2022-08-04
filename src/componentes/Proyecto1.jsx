@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import '../Componente.css';
 import '../Ejemplo.css';
+import flecha from '../imagenes/flecha.png';
 import logo from '../imagenes/logo.png';
 import menu from '../imagenes/menu.png';
 
@@ -44,7 +45,8 @@ const Projecto1 = () => {
                esto se hizo con la finalidad de la seguridad de las personas, ahorrar tiempo y compras de
                 vehículos más seguras, para más información puedes ver el siguiente video dando clic <a href="https://www.youtube.com/watch?v=LeeWBO-cRYE">aqui</a> </p>
             <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
-            <a  className="regreso" href="/">Regresar</a>
+            <a href="/" className="texto" id="regresar">Regresar</a>
+
         </div>
     </section>
     <section className="parallax" id='sesion2'>
