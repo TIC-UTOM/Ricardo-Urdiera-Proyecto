@@ -38,11 +38,11 @@ const Informacion = () => {
         <form class="row g-3" id="Formulario" action="https://formsubmit.co/a5ed39e73e6c5696b6e27c90cf0b8232" method="POST">
   <div class="col-md-6">
   <div class="col-12">
-    <label for="inputAddress" class="form-label">Nombre Completo *</label>
+    <label for="inputAddress" class="form-label">Nombre completo *</label>
     <input type="text" class="form-control" id="inputAddress" name="nombre" required/>
   </div>
     <label for="inputCity" class="form-label">Número de telefono</label>
-    <input type="number" class="form-control" id="inputCity" name="numero" />
+    <input type="number" class="form-control" id="inputCity" name="numero"/>
   </div>
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Dirección de correo *</label>
