@@ -30,23 +30,23 @@ const Informacion = () => {
         </div> 
     
               <div className="">
-                <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+                <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
               </div>
               <div>
-                <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+                <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
               </div>
     
     
         <section className="parallax" id='sesion1Estadia'>
             <div className="banner_description">
-                <h1 className="escaner">Diseño de publicidad para Orden Express</h1>
+                <h1 className="escaner">Diseño de publicidad para Order Express</h1>
                 <p className="texto">
-                El proyecto de publicidad para orden express fue hecho para estadías o prácticas profesionales,
-                 el cual el propósito era realizar diferentes diseños para la empresa de Orden express, la cual
+                El proyecto de publicidad para order express fue hecho para estadías o prácticas profesionales,
+                 el cual el propósito era realizar diferentes diseños para la empresa de Order express, la cual
                   es un corporativo de paquetería, cambio de dinero, etc. 
                 Este proyecto fue uno de los más profesionales ya que fue entregado para una empresa real,
                  el material que se entregó fueron banners, carteles, folletos, videos, publicidad de piso, 
-                 saber cómo son cheques falsos y rediseñar material.
+                 saber cómo son los cheques falsos y rediseñar material.
                 Todo esto fue diseño en software de edición como lo son Photoshop, adobe Illustrator y editores
                  de video, el proyecto se realizó en un lapso de 4 meses o un total de 500 horas.  
 

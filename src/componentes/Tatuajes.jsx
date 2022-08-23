@@ -30,10 +30,10 @@ const Informacion = () => {
         </div> 
     
               <div className="">
-                <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+                <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
               </div>
               <div>
-                <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+                <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
               </div>
     
     
@@ -43,9 +43,9 @@ const Informacion = () => {
                 <p className="texto">
                 El proyecto de los tatuajes, solo se quedó en el prototipo, pero eso no indica que no se pueda
                  realizar, ya que toda la estructura está realizada, faltaría lo que es la parte de programación,
-                  la función del proyecto es que usando realidad aumenta, este nos muestre en la parte que 
+                  la función del proyecto es que usando realidad aumentada”, este nos muestre en la parte que 
                   enfoquemos con una pequeña cara dibujada con una pluma  nos coloque lo que es el diseño de
-                   tatuaje que hemos elegido y de esta forma determinar si nos ha gusta dicho tatuaje, en la 
+                   tatuaje que hemos elegido y de esta forma determinar si nos gusta dicho tatuaje, en la 
                    parte de los tatuajes son una base de datos, en la que los usuarios suben sus trabajos 
                    y de esta forma puedan ser conocidos y usados.   
                 </p>

@@ -30,16 +30,16 @@ const Informacion = () => {
         </div> 
     
               <div className="">
-                <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+                <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
               </div>
               <div>
-                <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+                <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
               </div>
     
     
         <section className="parallax" id='sesion1nano'>
             <div className="banner_description">
-                <h1 className="escaner">Nanotecologia y Microchip</h1>
+                <h1 className="escaner">Nanotecología y Microchip</h1>
                 <p className="texto">El proyecto que lleva como nombre, nanotecnología y microchip, fue el realizar una
                  página web profesional, el cual consistía en aplicar las tecnologías que hemos visto durante la carrera, 
                  login funcional, pagina responsiva, contenido en toda la página,  por otro lado, la página contaba con

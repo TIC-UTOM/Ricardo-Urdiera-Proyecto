@@ -42,10 +42,10 @@ const Basico2 = () => {
         </div> 
 
           <div className="">
-            <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+            <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+            <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
 
 
@@ -76,7 +76,7 @@ const Basico2 = () => {
     <br /><br />
     <div className="contenedor3">
            <a href="utomoscars"><h1 className="tit3" id="tit3">
-               UTOoscars
+               UTOscars
             </h1></a>
         <a href="utomoscars"><h1 className="ver3" id="ver3">Ver proyecto</h1></a>
 	</div>
@@ -91,7 +91,7 @@ const Basico2 = () => {
 
   <div className="contenedor3">
            <a href="micro"><h1 className="tit4" id="tit4">
-             Nanotecologia
+             Nanotecnología
             </h1></a>
         <a href="micro"><h1 className="ver4" id="ver3">Ver proyecto</h1></a>
 	</div>
@@ -126,7 +126,7 @@ const Basico2 = () => {
   </div>
   <div className="contenedor3">
            <a href="Estadia"><h1 className="tit7" id="tit7">
-             Estadias
+           Estadías
             </h1></a>
         <a href="Estadia"><h1 className="ver7" id="ver3">Ver proyecto</h1></a>
 	</div>

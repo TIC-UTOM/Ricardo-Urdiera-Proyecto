@@ -25,17 +25,17 @@ import menu from '../imagenes/menu.png';
         </div> 
 
           <div className="">
-            <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+            <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+            <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
 
 
     <section className="parallax" id='sesion1super'>
         <div className="banner_description">
             <h1 className="escaner">Base Datos Supermercado</h1>
-            <p className="texto">EEl proyecto de base de datos fue un trabajo el cual consistía en un software
+            <p className="texto">El proyecto de base de datos fue un trabajo el cual consistía en un software
              de escritorio, este lo que hacía era registrar al personal, registrar los productos, marcas, 
              el realizar tickets de compra, guardar las compras, cuánto dinero se tiene, los recortes, etc.
             En lo personal es uno de los proyectos más completos que he hecho, al igual que uno de los que 

@@ -26,10 +26,10 @@ import menu from '../imagenes/menu.png';
         </div> 
 
           <div className="">
-            <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+            <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+            <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
 
 
@@ -41,7 +41,7 @@ import menu from '../imagenes/menu.png';
              (En inglés) una película, todo se esto acompañado de lo que es un poster de la película, el 
              cual también fue realizado por el equipo de trabajo, todo esto fue realizado en el tiempo de 
              un mes, ya que la edición de la película y el doblaje fue lo más difícil. Pero el trabajo 
-             rindió los frutos al ganar a mejor edición y mejor guión.</p>
+             rindió los frutos al ganar a mejor edición y mejor guion.</p>
             <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
             <a href="/" className="texto" id="regresar">Regresar</a>
         </div>

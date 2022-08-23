@@ -25,18 +25,19 @@ import menu from '../imagenes/menu.png';
         </div> 
 
           <div className="">
-            <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+            <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+            <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
+          <br/>
           <div className="banner_description_info">
             <p className="infor" id="info">
-          Hola soy Ricardo Urdiera , pero 
+          Hola soy Ricardo Urdiera, pero 
           llámame Ricardo. Estudio en la UTOM
           en la carrera de Gestión y Desarrollo de software,
            aportando nuevas tecnologías para la sociedad, 
-           al igual que diseños en animación.</p>
+           al igual que diseños para animación.</p>
         </div>
         </div>
         )

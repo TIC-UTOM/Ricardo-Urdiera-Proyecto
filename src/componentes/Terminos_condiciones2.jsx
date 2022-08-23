@@ -25,15 +25,15 @@ const Condiciones = () => {
         </div> 
 
           <div className="">
-            <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+            <a href="https://www.facebook.com/Ricardo.urdiera/"  target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+            <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
           <main id="blog">
 		<div class="contenedor">
 			<div class="contenido">
-				<h1 className="titulo">Terminos y Condiciones</h1>
+				<h1 className="titulo">Términos y Condiciones</h1>
 				<div class="post">
                 <h1 class="titulos">Información general</h1>
 					<p>

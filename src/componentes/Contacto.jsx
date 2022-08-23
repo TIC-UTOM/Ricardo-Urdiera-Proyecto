@@ -27,15 +27,15 @@ const Informacion = () => {
         </div> 
 
           <div className="">
-            <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+            <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+            <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
 
         <h1 className="titulo">Contacto</h1>
         
-        <form class="row g-3" id="Formulario" action="https://formsubmit.co/a5ed39e73e6c5696b6e27c90cf0b8232" method="POST">
+        <form class="row g-3" id="Formulario" action="https://formsubmit.co/ricardourdiera@gmail.com" method="POST">
   <div class="col-md-6">
   <div class="col-12">
     <label for="inputAddress" class="form-label">Nombre completo *</label>
@@ -57,7 +57,7 @@ const Informacion = () => {
     <button type="submit" class="btn btn-primary">Enviar</button>
   </div>
 
-  <input type="hidden" name="_next" value="http://localhost:3000/contacto"/>
+  <input type="hidden" name="_next" value="http://ricardourdierautom-portafolio-digital.s3-website-us-west-2.amazonaws.com/contacto"/>
   <input type="hidden" name="_captcha" value="false"/>
 </form>
       

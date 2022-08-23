@@ -29,10 +29,10 @@ const Projecto1 = () => {
 
 
           <div className="">
-            <a href="https://www.facebook.com/Ricardo.urdiera/" className="btn-Noinstagram" ><i className="">Facebook</i></a>
+            <a href="https://www.facebook.com/Ricardo.urdiera/" target="_blank" className="btn-Noinstagram" ><i className="">Facebook</i></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/ricardourdiera.318/" className="btn-instagram" ><i className="">Instagram</i></a>
+            <a href="https://www.instagram.com/ricardourdiera.318/" target="_blank" className="btn-instagram" ><i className="">Instagram</i></a>
           </div>
 
 
@@ -43,7 +43,7 @@ const Projecto1 = () => {
              para la materia de integradora, la función del proyecto es que se pueda medir el funcionamiento de
               tu coche por medio de un OBD2 y que esta información te la presente en tu teléfono en tiempo real,
                esto se hizo con la finalidad de la seguridad de las personas, ahorrar tiempo y compras de
-                vehículos más seguras, para más información puedes ver el siguiente video dando clic <a href="https://www.youtube.com/watch?v=LeeWBO-cRYE">aqui</a> </p>
+                vehículos más seguras, para más información puedes ver el siguiente video dando clic <a href="https://www.youtube.com/watch?v=LeeWBO-cRYE" target="_blank">aquí</a> </p>
             <p className="texto" >Autor del proyecto: Urdiera Ricardo</p>
             <a href="/" className="texto" id="regresar">Regresar</a>
 
